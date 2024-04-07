@@ -9,4 +9,4 @@
 
 
 
-![AttacksAndEnemies](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/AttackAndEnemies.gif)
+![AttacksAndEnemies](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/AttacksAndEnemies.gif)
