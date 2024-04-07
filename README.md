@@ -4,6 +4,9 @@
 
 ## DEMO GIFS
 
+
 ![ProcGenAndWaling](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/ProceduralGenAndWalking.gif)
+
+
 
 ![AttacksAndEnemies](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/AttackAndEnemies.gif)
