@@ -8,5 +8,10 @@
 ![ProcGenAndWaling](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/ProceduralGenAndWalking.gif)
 
 
-
 ![AttacksAndEnemies](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/AttacksAndEnemies.gif)
+
+
+![DamageEnemyPlasma](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/DamageEnemyPlasma.gif)
+
+
+![DamageEnemyStarProj](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/EnemyDamageStarProj.gif)

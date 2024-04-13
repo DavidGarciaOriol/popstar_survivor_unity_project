@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8045059123285881044}
   - component: {fileID: 4024867821835145395}
   - component: {fileID: 3140417826803283251}
+  - component: {fileID: 539570988634800822}
   m_Layer: 0
   m_Name: Waddle Dee
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,4 +166,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41c84db90f9cc8d459b82093c1a22376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  enemyData: {fileID: 11400000, guid: abaccb0338689264784e21a30ffda01c, type: 2}
+--- !u!114 &539570988634800822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678955800413761516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6ed5dcc515c1c41a66c3896409dbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: abaccb0338689264784e21a30ffda01c, type: 2}

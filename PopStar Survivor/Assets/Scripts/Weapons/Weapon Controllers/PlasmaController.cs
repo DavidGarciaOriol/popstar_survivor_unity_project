@@ -13,7 +13,7 @@ public class PlasmaController : WeaponController
     protected override void Attack()
     {
         base.Attack();
-        GameObject spawnedPlasmaArea = Instantiate(prefab);
+        GameObject spawnedPlasmaArea = Instantiate(weaponData.Prefab);
         spawnedPlasmaArea.transform.position = transform.position;
         spawnedPlasmaArea.transform.parent = transform;
     }

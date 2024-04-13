@@ -13,7 +13,7 @@ public class WeaponStarController : WeaponController
     protected override void Attack()
     {
         base.Attack();
-        GameObject spawnedStarProjectile = Instantiate(prefab);
+        GameObject spawnedStarProjectile = Instantiate(weaponData.Prefab);
         spawnedStarProjectile.transform.position = transform.position; // La posición será la misma asignada al objeto, el cual está asociado a la de Player.
         spawnedStarProjectile.GetComponent<WeaponStarBehaviour>().DirectionChecker(playerMovement.lastMovedVector); // Referencia y establece la dirección.
     }
