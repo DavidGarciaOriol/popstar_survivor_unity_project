@@ -15,3 +15,6 @@
 
 
 ![DamageEnemyStarProj](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/EnemyDamageStarProj.gif)
+
+
+![DropAndPickupExperience](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/DropAndPickupExperience.gif)

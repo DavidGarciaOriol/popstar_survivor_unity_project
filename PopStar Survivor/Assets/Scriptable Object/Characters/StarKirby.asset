@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dd44eb24278bb148a50b6e6068eef55, type: 3}
-  m_Name: Wdee Enemy
+  m_Script: {fileID: 11500000, guid: 18c48f0d4a66a1241a4dc0713360e6eb, type: 3}
+  m_Name: StarKirby
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  maxHealth: 10
-  damage: 30
+  startingWeapon: {fileID: 0}
+  maxHealth: 100
+  recovery: 0
+  moveSpeed: 5
+  might: 0
+  projectileSpeed: 0

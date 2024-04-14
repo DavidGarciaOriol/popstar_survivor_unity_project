@@ -262,7 +262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &886959025
 Transform:
   m_ObjectHideFlags: 0
@@ -410,6 +410,8 @@ GameObject:
   - component: {fileID: 2077432321}
   - component: {fileID: 2077432322}
   - component: {fileID: 2077432323}
+  - component: {fileID: 2077432324}
+  - component: {fileID: 2077432325}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -608,11 +610,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2486a2044126ed14d80f16a91f56f13c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
   lastHorizontalVector: 0
   lastVerticalVector: 0
   moveDir: {x: 0, y: 0}
   lastMovedVector: {x: 0, y: 0}
+  characterData: {fileID: 11400000, guid: 56be01832526fd34cb67a2656f3aae08, type: 2}
 --- !u!114 &2077432322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -646,6 +648,84 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2077432324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077432315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2540af4087866984da6244c7c5a101d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterData: {fileID: 11400000, guid: 56be01832526fd34cb67a2656f3aae08, type: 2}
+  experience: 0
+  level: 1
+  experienceCap: 0
+  invincibilityDuration: 0.66
+  levelRanges:
+  - startLevel: 1
+    endLevel: 5
+    experienceCapIncrease: 75
+  - startLevel: 6
+    endLevel: 10
+    experienceCapIncrease: 105
+  - startLevel: 11
+    endLevel: 15
+    experienceCapIncrease: 145
+  - startLevel: 16
+    endLevel: 20
+    experienceCapIncrease: 175
+  - startLevel: 21
+    endLevel: 23
+    experienceCapIncrease: 185
+  - startLevel: 24
+    endLevel: 25
+    experienceCapIncrease: 195
+  - startLevel: 26
+    endLevel: 30
+    experienceCapIncrease: 250
+  - startLevel: 31
+    endLevel: 34
+    experienceCapIncrease: 315
+  - startLevel: 35
+    endLevel: 39
+    experienceCapIncrease: 375
+  - startLevel: 40
+    endLevel: 49
+    experienceCapIncrease: 400
+  - startLevel: 50
+    endLevel: 59
+    experienceCapIncrease: 500
+  - startLevel: 60
+    endLevel: 69
+    experienceCapIncrease: 600
+  - startLevel: 70
+    endLevel: 79
+    experienceCapIncrease: 700
+  - startLevel: 80
+    endLevel: 89
+    experienceCapIncrease: 800
+  - startLevel: 90
+    endLevel: 99
+    experienceCapIncrease: 900
+  - startLevel: 100
+    endLevel: 999999
+    experienceCapIncrease: 1
+--- !u!114 &2077432325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077432315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c8d9b6a142a80468ff081d48a399a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1477143515233964246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -711,6 +791,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5112282430207620881, guid: 50d6a934bb26c87419dd8fe1d58bc4fd, type: 3}
+      propertyPath: drops.Array.data[0].dropRate
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 5391014640370433528, guid: 50d6a934bb26c87419dd8fe1d58bc4fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.76
@@ -754,6 +838,10 @@ PrefabInstance:
     - target: {fileID: 5678955800413761516, guid: 50d6a934bb26c87419dd8fe1d58bc4fd, type: 3}
       propertyPath: m_Name
       value: Waddle Dee
+      objectReference: {fileID: 0}
+    - target: {fileID: 5678955800413761516, guid: 50d6a934bb26c87419dd8fe1d58bc4fd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
