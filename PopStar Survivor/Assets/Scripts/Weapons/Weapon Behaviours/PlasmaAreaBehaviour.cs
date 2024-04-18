@@ -22,5 +22,16 @@ public class PlasmaAreaBehaviour : MeleeWeaponBehaviour
             enemy.TakeDamage(currentDamage);
             markedEnemies.Add(col.gameObject); // Marca al enemigo apra que no reciba daño de este ataque de nuevo.
         }
+        else if (col.CompareTag("Prop"))
+        {
+            if (col.gameObject.TryGetComponent(out BreakableProps breakable)
+                && !markedEnemies.Contains(col.gameObject))
+            {
+                breakable.TakeDamage(currentDamage);
+                markedEnemies.Add(col.gameObject);
+            }
+
+        }
+
     }
 }

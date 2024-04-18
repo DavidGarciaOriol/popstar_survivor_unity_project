@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 8462351677942313107}
   - component: {fileID: 4130295935138004886}
   - component: {fileID: -8662063750910431790}
+  - component: {fileID: -6898091623036270568}
+  - component: {fileID: 2418485579010312102}
   m_Layer: 0
   m_Name: terrain_17
-  m_TagString: Untagged
+  m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,3 +132,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &-6898091623036270568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3540124971394156167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5ea684ead6daf944941bcb26dfd0302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+--- !u!114 &2418485579010312102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3540124971394156167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a96397e4db467439f820d51369c089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drops:
+  - name: Tomato
+    itemPrefab: {fileID: 8571601242004109827, guid: 665c22cf8242b36489ca192cf00dcc59, type: 3}
+    dropRate: 50

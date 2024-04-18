@@ -18,11 +18,13 @@ public class PlayerMovement : MonoBehaviour
 
     // Referencias
     Rigidbody2D rigidbody2D;
-    public CharacterScriptableObject characterData;
+    PlayerStats player;
 
     // Start is called before the first frame update
     void Start()
     {
+        player = GetComponent<PlayerStats>();
+
         rigidbody2D = GetComponent<Rigidbody2D>();
         lastMovedVector = new Vector2(1, 0f); // De serie, las armas de proyectil dispararán hacia la derecha.
     }
@@ -66,6 +68,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-        rigidbody2D.velocity = new Vector2(moveDir.x * characterData.MoveSpeed, moveDir.y * characterData.MoveSpeed);
+        rigidbody2D.velocity = new Vector2(moveDir.x * player.currentMoveSpeed, moveDir.y * player.currentMoveSpeed);
     }
 }

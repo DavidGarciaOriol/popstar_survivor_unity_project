@@ -17,6 +17,6 @@ public class WeaponStarBehaviour : ProjectileWeaponBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += direction * weaponData.Speed * Time.deltaTime; // Movimiento del proyectil estrella
+        transform.position += direction * currentSpeed * Time.deltaTime; // Movimiento del proyectil estrella
     }
 }
