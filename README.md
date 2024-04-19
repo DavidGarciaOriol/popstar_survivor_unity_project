@@ -24,3 +24,8 @@
 
 ### Props rompibles y objetos de curación
 ![BreakablePropsAndHealingItem](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/BreakablePropsAndHealingItem.gif)
+
+### Pantalla selección personaje/arma
+![MenuSelector_StarProj](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/MenuSelector_StarProj.gif)
+
+![MenuSelector_Plasma](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/MenuSelector_Plasma.gif)

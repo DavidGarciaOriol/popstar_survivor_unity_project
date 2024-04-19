@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18c48f0d4a66a1241a4dc0713360e6eb, type: 3}
-  m_Name: StarKirby
+  m_Name: PlasmaKirby
   m_EditorClassIdentifier: 
-  startingWeapon: {fileID: 6116225827250739796, guid: 414d52d6dba29b44f81580a98d97af18, type: 3}
-  maxHealth: 90
+  startingWeapon: {fileID: 8267325386942157222, guid: bbd654126289b1f449b7438cda6706a5, type: 3}
+  maxHealth: 140
   recovery: 1
-  moveSpeed: 6
+  moveSpeed: 4
   might: 0
   projectileSpeed: 0
-  magnet: 5
+  magnet: 9
