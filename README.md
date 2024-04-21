@@ -35,4 +35,4 @@
 ![Grizzo_Enemy](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/Grizzo_Enemy.gif)
 
 ### Bronto Burt
-[BrontoBurt_Enemy](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/BrontoBurt_Enemy.gif)
+![BrontoBurt_Enemy](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/BrontoBurt_Enemy.gif)
