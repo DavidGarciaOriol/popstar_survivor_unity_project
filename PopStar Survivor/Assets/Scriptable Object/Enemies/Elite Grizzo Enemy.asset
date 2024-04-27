@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28687870614a0824a9900b26f234dd4b, type: 3}
-  m_Name: Star Projectile Weapon
+  m_Script: {fileID: 11500000, guid: 0dd44eb24278bb148a50b6e6068eef55, type: 3}
+  m_Name: Elite Grizzo Enemy
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3671229281331981475, guid: 519a8e0cae89d4f4d97d26decec46e4e, type: 3}
-  damage: 10
-  speed: 7
-  cooldownDuration: 2
-  pierce: 1
+  moveSpeed: 2
+  maxHealth: 80
+  damage: 80

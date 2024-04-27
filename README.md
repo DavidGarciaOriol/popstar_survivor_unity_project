@@ -36,3 +36,10 @@
 
 ### Bronto Burt
 ![BrontoBurt_Enemy](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/BrontoBurt_Enemy.gif)
+
+### Enemigos élite
+![Elite_Enemies](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/Elite_Enemies.gif)
+
+### Oleadas de Enemigos
+![Enemies_Waves](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/Enemies_Waves.gif)
+

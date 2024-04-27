@@ -160,4 +160,4 @@ MonoBehaviour:
   drops:
   - name: Tomato
     itemPrefab: {fileID: 8571601242004109827, guid: 665c22cf8242b36489ca192cf00dcc59, type: 3}
-    dropRate: 50
+    dropRate: 10
