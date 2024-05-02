@@ -90,7 +90,7 @@ public class EnemySpawner : MonoBehaviour
 
         waves[currentWaveCount].waveQuota = currentWaveQuota;
 
-        Debug.LogWarning(currentWaveQuota);
+        // Debug.LogWarning(currentWaveQuota);
     }
 
     /// <summary>

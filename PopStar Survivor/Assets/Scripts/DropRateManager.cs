@@ -16,6 +16,12 @@ public class DropRateManager : MonoBehaviour
 
     void OnDestroy()
     {
+
+        if (!gameObject.scene.isLoaded) // Impide que las entidades suelten objetos al ser destruidas por el cierre de las escena
+        {
+            return;
+        }
+
         float randomNumber = UnityEngine.Random.Range(0f, 100f);
         List<Drops> possibleDrops = new List<Drops>();
 
