@@ -10,6 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d91ef399a50d8ce4495dd14fb2004c48, type: 3}
-  m_Name: Sword Treasure
+  m_Name: Sword Treasure Lv 4
   m_EditorClassIdentifier: 
-  multiplier: 20
+  multiplier: 30
+  level: 4
+  nextLevelPrefab: {fileID: 4574111829378408696, guid: 5b71392a10789504d9773bc77e6e219f, type: 3}
+  icon: {fileID: 21300000, guid: 8baf7d72631a2f04faea9097b350d82e, type: 3}

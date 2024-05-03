@@ -52,7 +52,7 @@ public class PlayerStats : MonoBehaviour
     public GameObject firstPassiveItemTest, secondPassiveItemTest;
 
 
-    private void Awake()
+    void Awake()
     {
         characterData = CharacterSelector.GetData();
         CharacterSelector.instance.DestroySingleton();
@@ -174,7 +174,7 @@ public class PlayerStats : MonoBehaviour
         // Genera el arma inicial
         GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
         spawnedWeapon.transform.SetParent(transform);
-        inventory.AddWeapon(weaponIndex, spawnedWeapon.GetComponent<WeaponController>()); // Agrega el arma a su slot de inventario
+        inventory.AddWeapon(weaponIndex, spawnedWeapon.GetComponent<WeaponController>()); // Agrega el arma a su slot de inventario.
 
         weaponIndex++;
     
@@ -191,7 +191,7 @@ public class PlayerStats : MonoBehaviour
         // Genera el tesoro/objeto pasivo inicial
         GameObject spawnedPassiveItem = Instantiate(passiveItem, transform.position, Quaternion.identity);
         spawnedPassiveItem.transform.SetParent(transform);
-        inventory.AddPassiveItem(passiveItemIndex, spawnedPassiveItem.GetComponent<PassiveItem>()); // Agrega el arma a su slot de inventario
+        inventory.AddPassiveItem(passiveItemIndex, spawnedPassiveItem.GetComponent<PassiveItem>()); // Agrega el objeto pasivo a su slot de inventario.
 
         passiveItemIndex++;
 

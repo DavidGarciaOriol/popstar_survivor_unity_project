@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8442614222380668438}
   - component: {fileID: 1707930281011129605}
   m_Layer: 0
-  m_Name: Plasma Area Weapon
+  m_Name: Plasma Weapon Lv 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b268a18f7d889d44db8a49f8a9932f94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponData: {fileID: 11400000, guid: a24be623f7e9aa24aa20b0bae0fab102, type: 2}
+  weaponData: {fileID: 11400000, guid: f5996d1a219954d44aa79c0891046d84, type: 2}
   destroyAfterSeconds: 2
 --- !u!58 &1707930281011129605
 CircleCollider2D:
