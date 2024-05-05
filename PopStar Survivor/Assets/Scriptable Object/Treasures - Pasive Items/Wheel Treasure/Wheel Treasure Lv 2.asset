@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d91ef399a50d8ce4495dd14fb2004c48, type: 3}
   m_Name: Wheel Treasure Lv 2
   m_EditorClassIdentifier: 
-  multiplier: 26
+  multiplier: 8
   level: 2
   nextLevelPrefab: {fileID: 908332725593070549, guid: 350660863d62e6149996507e5eebc8ab, type: 3}
   icon: {fileID: 21300000, guid: 5783ce946c9a83d4bae66ca68930a0fa, type: 3}

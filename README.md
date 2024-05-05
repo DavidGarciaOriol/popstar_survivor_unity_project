@@ -47,3 +47,9 @@
 
 ### Mejoras de equipamiento
 ![Level_Up_Equip](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/Level_Up_Equip.gif)
+
+### Menú de pausa
+![Pause_Screen](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/Pause_Screen.gif)
+
+### Pantalla de game over
+![GameOver_Screen](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/GameOver_Screen.gif)

@@ -17,5 +17,5 @@ MonoBehaviour:
   recovery: 1
   moveSpeed: 6
   might: 1
-  projectileSpeed: 0
+  projectileSpeed: 1
   magnet: 5
