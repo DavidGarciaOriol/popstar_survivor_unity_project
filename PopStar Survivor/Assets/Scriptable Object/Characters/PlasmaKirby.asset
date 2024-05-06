@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18c48f0d4a66a1241a4dc0713360e6eb, type: 3}
   m_Name: PlasmaKirby
   m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 38bb877c3e1c44643b4035b22621689a, type: 3}
+  name: Plasma
   startingWeapon: {fileID: 8267325386942157222, guid: bbd654126289b1f449b7438cda6706a5, type: 3}
-  maxHealth: 140
-  recovery: 1
-  moveSpeed: 4
-  might: 1
+  maxHealth: 150
+  recovery: 1.5
+  moveSpeed: 5
+  might: 1.2
   projectileSpeed: 0
-  magnet: 9
+  magnet: 10

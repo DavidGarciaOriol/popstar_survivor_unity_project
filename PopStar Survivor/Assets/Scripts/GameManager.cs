@@ -22,17 +22,28 @@ public class GameManager : MonoBehaviour
     // Guarda el estado anterior del juego.
     public GameState previousState;
 
-    [Header("UI")]
+    [Header("Screens")]
     public GameObject pauseScreen;
     public GameObject resultsScreen;
 
+
     // Display de los stats
+    [Header("Current Stat Displayers")]
     public Text currentHealthDisplay;
     public Text currentRecoveryDisplay;
     public Text currentMoveSpeedDisplay;
     public Text currentMightDisplay;
     public Text currentProjectileSpeedDisplay;
     public Text currentMagnetDisplay;
+
+    [Header("Results Screen Displayers")]
+    public Image chosenCharacterImage;
+    public Text chosenCharacterName;
+    public Text levelReachedDisplay;
+    public List<Image> chosenWeaponsUI = new List<Image>(6);
+    public List<Image> chosenPassiveItemsUI = new List<Image>(6);
+
+    // public Text timeSurvivedDisplay;
 
     public bool isGameOver = false;
 
@@ -145,5 +156,53 @@ public class GameManager : MonoBehaviour
         resultsScreen.SetActive(true);
     }
 
+    public void AssignChosenCharacterUI(CharacterScriptableObject chosenCharacterData)
+    {
+        chosenCharacterImage.sprite = chosenCharacterData.Icon;
+        chosenCharacterName.text = chosenCharacterData.Name;
 
+    }
+
+    public void AssignLevelReached(int levelReachedData)
+    {
+        levelReachedDisplay.text = levelReachedData.ToString();
+    }
+
+    public void AssignChosenWeaponsAndPassiveItemsUI(List<Image> chosenWeaponData, List<Image> chosenPassiveItemsData)
+    {
+        if (chosenWeaponData.Count != chosenWeaponsUI.Count
+            || chosenPassiveItemsData.Count != chosenPassiveItemsUI.Count)
+        {
+            Debug.Log("La lista de datos de habilidades y tesoros escogidos tienen tamaños diferentes.");
+            return;
+        }
+
+        // Asigna los datos de la habilidad (arma) escogida al UI de resultados.
+        for (int i = 0; i < chosenWeaponsUI.Count; i++)
+        { 
+            if (chosenWeaponData[i].sprite)
+            {
+                chosenWeaponsUI[i].enabled = true;
+                chosenWeaponsUI[i].sprite = chosenWeaponData[i].sprite;
+            }
+            else
+            {
+                chosenWeaponsUI[i].enabled = false;
+            }
+        }
+
+        // Asigna los datos del tesoro (passive item) escogido al UI de resultados.
+        for (int i = 0; i < chosenPassiveItemsUI.Count; i++)
+        {
+            if (chosenWeaponData[i].sprite)
+            {
+                chosenPassiveItemsUI[i].enabled = true;
+                chosenPassiveItemsUI[i].sprite = chosenPassiveItemsData[i].sprite;
+            }
+            else
+            {
+                chosenPassiveItemsUI[i].enabled = false;
+            }
+        }
+    }
 }
