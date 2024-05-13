@@ -15,4 +15,6 @@ MonoBehaviour:
   multiplier: 5
   level: 1
   nextLevelPrefab: {fileID: 908332725593070549, guid: 7bc187dddfdac7f49ac7f8b44b5b2d38, type: 3}
+  name: Rueda
+  description: Velocidad de desplazamiento +5%
   icon: {fileID: 21300000, guid: 5783ce946c9a83d4bae66ca68930a0fa, type: 3}

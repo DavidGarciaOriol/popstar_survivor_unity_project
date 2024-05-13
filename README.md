@@ -53,3 +53,6 @@
 
 ### Pantalla de game over
 ![GameOver_Screen](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/GameOver_Screen.gif)
+
+### Pantalla selección de mejoras al subir nivel
+![InGame_Upgrading_Screen](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/InGame_Upgrading_Screen.gif)

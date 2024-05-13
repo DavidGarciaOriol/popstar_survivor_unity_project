@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d91ef399a50d8ce4495dd14fb2004c48, type: 3}
   m_Name: Sword Treasure
   m_EditorClassIdentifier: 
-  multiplier: 15
+  multiplier: 10
   level: 1
   nextLevelPrefab: {fileID: 4574111829378408696, guid: 3521969384c599f47b74fd983a3594b5, type: 3}
+  name: Espada Falsa
+  description: "Da\xF1o +10%"
   icon: {fileID: 21300000, guid: 8baf7d72631a2f04faea9097b350d82e, type: 3}

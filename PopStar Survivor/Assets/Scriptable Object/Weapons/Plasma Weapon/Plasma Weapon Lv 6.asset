@@ -19,4 +19,6 @@ MonoBehaviour:
   pierce: 0
   level: 6
   nextLevelPrefab: {fileID: 0}
+  name: "Plasma M\xC1XIMO"
+  description: "\xA1M\xE1s da\xF1o, m\xE1s constante!"
   icon: {fileID: -1038743271, guid: 67098cf6a98e7f343aff197b7ddf919c, type: 3}

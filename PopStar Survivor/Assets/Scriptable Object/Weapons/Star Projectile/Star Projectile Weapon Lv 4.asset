@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 3671229281331981475, guid: 519a8e0cae89d4f4d97d26decec46e4e, type: 3}
   damage: 20
-  speed: 12
-  cooldownDuration: 2
-  pierce: 2
+  speed: 7
+  cooldownDuration: 1.5
+  pierce: 1
   level: 4
   nextLevelPrefab: {fileID: 6116225827250739796, guid: f7bb90c3cd75c264ca8d8c937f8d87ec, type: 3}
+  name: Normal Nv 4
+  description: "Aumenta el da\xF1o."
   icon: {fileID: -2130945260, guid: 01e51840c71eb9942b761edf7ef6d827, type: 3}
