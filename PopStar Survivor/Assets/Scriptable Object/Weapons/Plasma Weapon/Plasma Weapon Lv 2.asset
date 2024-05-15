@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28687870614a0824a9900b26f234dd4b, type: 3}
   m_Name: Plasma Weapon Lv 2
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6576096777023912502, guid: e357d7f111729104a9261786049ccee7, type: 3}
+  prefab: {fileID: 6576096777023912502, guid: 70f496a5ddae1bb49afe892c946b618a, type: 3}
   damage: 10
   speed: 0
   cooldownDuration: 3
