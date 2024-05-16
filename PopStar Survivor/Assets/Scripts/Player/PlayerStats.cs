@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
     CharacterScriptableObject characterData;
 
-    // Estadísticas actuales
+    // Estadï¿½sticas actuales
     
     float currentHealth;
     float currentRecovery;
@@ -47,7 +48,7 @@ public class PlayerStats : MonoBehaviour
 
                 if (GameManager.instance != null)
                 {
-                    GameManager.instance.currentRecoveryDisplay.text = "Regeneración: " + currentRecovery;
+                    GameManager.instance.currentRecoveryDisplay.text = "Regeneraciï¿½n: " + currentRecovery;
                 }
             }
         }
@@ -155,7 +156,7 @@ public class PlayerStats : MonoBehaviour
     [Header("UI")]
     public Image healthBar;
     public Image expBar;
-    public Text levelText;
+    public TMP_Text levelText;
 
     [Header("Test")]
     public GameObject secondWeaponTest;
@@ -191,7 +192,7 @@ public class PlayerStats : MonoBehaviour
 
         // Display de stats inicial.
         GameManager.instance.currentHealthDisplay.text = "Vitalidad: " + currentHealth;
-        GameManager.instance.currentRecoveryDisplay.text = "Regeneración: " + currentRecovery;
+        GameManager.instance.currentRecoveryDisplay.text = "Regeneraciï¿½n: " + currentRecovery;
         GameManager.instance.currentMoveSpeedDisplay.text = "Movimiento: " + currentMoveSpeed;
         GameManager.instance.currentMightDisplay.text = "Poder: " + CurrentMight;
         GameManager.instance.currentProjectileSpeedDisplay.text = "Vel. Proyectil: " + currentProjectileSpeed;

@@ -4,6 +4,7 @@ using Unity.Burst.Intrinsics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -34,15 +35,15 @@ public class InventoryManager : MonoBehaviour
     [System.Serializable]
     public class UpgradeUI
     {
-        public Text upgradeNameDisplay;
-        public Text upgradeDescriptionDisplay;
+        public TMP_Text upgradeNameDisplay;
+        public TMP_Text upgradeDescriptionDisplay;
         public Image upgradeIcon;
         public Button upgradeButton;
     }
 
     public List<WeaponUpgrade> weaponUpgradeOptions = new List<WeaponUpgrade>(); // Lista de opciones de mejora de habilidades (armas).
     public List<PassiveItemUpgrade> passiveItemUpgradeOptions = new List<PassiveItemUpgrade>(); // Lista de opciones de mejora de tesoros (pasivos).
-    public List<UpgradeUI> upgradeUIOptions = new List<UpgradeUI>(); // Lista de mejoras que se muestran en la pantalla de selección de opción de mejora.
+    public List<UpgradeUI> upgradeUIOptions = new List<UpgradeUI>(); // Lista de mejoras que se muestran en la pantalla de selecciï¿½n de opciï¿½n de mejora.
 
     PlayerStats player;
 
@@ -51,7 +52,7 @@ public class InventoryManager : MonoBehaviour
         player = GetComponent<PlayerStats>();
     }
 
-    // Añade un arma a un slot
+    // Aï¿½ade un arma a un slot
     public void AddWeapon(int slotIndex, WeaponController weapon)
     {
         weaponSlots[slotIndex] = weapon;
@@ -65,7 +66,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    // Añade un objeto pasivo a un slot
+    // Aï¿½ade un objeto pasivo a un slot
     public void AddPassiveItem(int slotIndex, PassiveItem passiveItem)
     {
         passiveItemSlots[slotIndex] = passiveItem;
@@ -143,7 +144,7 @@ public class InventoryManager : MonoBehaviour
 
         foreach (var upgradeOption in upgradeUIOptions)
         {
-            if (availableWeaponUpgrades.Count == 0 && availablePassiveItemUpgrades.Count == 0) // Si no quedan ni habilidades ni tesoros disponibles, no generará nada.
+            if (availableWeaponUpgrades.Count == 0 && availablePassiveItemUpgrades.Count == 0) // Si no quedan ni habilidades ni tesoros disponibles, no generarï¿½ nada.
             {
                 return;
             }
@@ -188,9 +189,9 @@ public class InventoryManager : MonoBehaviour
                                     break;
                                 }
 
-                                upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpWeapon(i, chosenWeaponUpgrade.weaponUpgradeIndex)); // Le aplica la funcionalidad al botón.
+                                upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpWeapon(i, chosenWeaponUpgrade.weaponUpgradeIndex)); // Le aplica la funcionalidad al botï¿½n.
                                 
-                                // Descripción y nombre del siguiente nivel de la habilidad / arma.
+                                // Descripciï¿½n y nombre del siguiente nivel de la habilidad / arma.
                                 upgradeOption.upgradeDescriptionDisplay.text
                                     = chosenWeaponUpgrade.weaponData.NextLevelPrefab.GetComponent<WeaponController>().weaponData.Description;
                                 upgradeOption.upgradeNameDisplay.text
@@ -206,9 +207,9 @@ public class InventoryManager : MonoBehaviour
 
                     if (newWeapon)
                     {
-                        upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnWeapon(chosenWeaponUpgrade.initialWeapon)); // Le aplica la funcionalidad al botón.
+                        upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnWeapon(chosenWeaponUpgrade.initialWeapon)); // Le aplica la funcionalidad al botï¿½n.
 
-                        // Descripción y nombre iniciales de la habilidad / arma.
+                        // Descripciï¿½n y nombre iniciales de la habilidad / arma.
                         upgradeOption.upgradeDescriptionDisplay.text =
                             chosenWeaponUpgrade.weaponData.Description;
                         upgradeOption.upgradeNameDisplay.text =
@@ -245,9 +246,9 @@ public class InventoryManager : MonoBehaviour
                                         break;
                                     }
 
-                                    upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpPassiveItem(i, chosenPassiveItemUpgrade.passiveItemUpgradeIndex)); // Le aplica la funcionalidad al botón.
+                                    upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpPassiveItem(i, chosenPassiveItemUpgrade.passiveItemUpgradeIndex)); // Le aplica la funcionalidad al botï¿½n.
 
-                                    // Descripción y nombre del siguiente nivel de tesoro / pasivo.
+                                    // Descripciï¿½n y nombre del siguiente nivel de tesoro / pasivo.
                                     upgradeOption.upgradeDescriptionDisplay.text
                                         = chosenPassiveItemUpgrade.passiveItemData.NextLevelPrefab.GetComponent<PassiveItem>().passiveItemData.Description;
                                     upgradeOption.upgradeNameDisplay.text
@@ -264,9 +265,9 @@ public class InventoryManager : MonoBehaviour
 
                     if (newPassiveItem)
                     {
-                        upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnPassiveItem(chosenPassiveItemUpgrade.initialPassiveItem)); // Le aplica la funcionalidad al botón.
+                        upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnPassiveItem(chosenPassiveItemUpgrade.initialPassiveItem)); // Le aplica la funcionalidad al botï¿½n.
 
-                        // Descripción y nombre iniciales del tesoro / pasivo.
+                        // Descripciï¿½n y nombre iniciales del tesoro / pasivo.
                         upgradeOption.upgradeDescriptionDisplay.text =
                             chosenPassiveItemUpgrade.passiveItemData.Description;
                         upgradeOption.upgradeNameDisplay.text =

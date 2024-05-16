@@ -35,6 +35,8 @@ public class EnemySpawner : MonoBehaviour
     public int maxEnemiesAllowed; // Máximo de enemigos permitidos al mismo tiempo.
     public bool maxEnemiesReached = false;
     public float waveInterval; //Intervalo entre rondas.
+    bool isWaveActive = false;
+
 
     [Header("Spawn Positions")]
     public List<Transform> relativeSpawnPoints; // Lista de puntos de aparición de enemigos relativos al jugador.
@@ -52,7 +54,7 @@ public class EnemySpawner : MonoBehaviour
     void Update()
     {
         // Comprueba si se ha terminado la ronda y debería comenzar la siguiente.
-        if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0)
+        if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0 && !isWaveActive)
         {
             StartCoroutine(BeginNextWave());
         }
@@ -68,6 +70,7 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator BeginNextWave()
     {
+        isWaveActive = true;
 
         // La ronda durará su intervalo antes de comenzar la siguiente.
         yield return new WaitForSeconds(waveInterval);
@@ -75,6 +78,7 @@ public class EnemySpawner : MonoBehaviour
         // Si existen más rondas tras la actual, comenzar la siguiente.
         if (currentWaveCount < waves.Count - 1)
         {
+            isWaveActive = false;
             currentWaveCount++;
             CalculateWaveQuota();
         }
@@ -113,12 +117,6 @@ public class EnemySpawner : MonoBehaviour
                 // Comprueba si han aparecido el mínimo de enemigos de este tipo.
                 if (enemyGroup.spawnCount < enemyGroup.enemyCount)
                 {
-                    if (enemiesAlive >= enemyGroup.enemyCount)
-                    {
-                        // Límite a los enemigos que pueden aparecer.
-                        maxEnemiesReached = true;
-                        return;
-                    }
 
                     // Genera enemigos en posiciones aleatorias relativas al jugador
                     Instantiate(enemyGroup.enemyPrefab, player.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position, Quaternion.identity);
@@ -126,18 +124,27 @@ public class EnemySpawner : MonoBehaviour
                     enemyGroup.spawnCount++;
                     waves[currentWaveCount].spawnCount++;
                     enemiesAlive++;
+
+                    // Límite a los enemigos que pueden aparecer.
+                    if (enemiesAlive >= enemyGroup.enemyCount)
+                    {
+
+                        maxEnemiesReached = true;
+                        return;
+                    }
                 }
             }
-        }
-
-        if (enemiesAlive < maxEnemiesAllowed)
-        {
-            maxEnemiesReached = false;
         }
     }
 
     public void OnEnemyKilled()
     {
         enemiesAlive--;
+
+        if (enemiesAlive < maxEnemiesAllowed)
+        {
+            maxEnemiesReached = false;
+        }
+
     }
 }

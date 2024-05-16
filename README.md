@@ -57,5 +57,8 @@
 ### Pantalla selección de mejoras al subir nivel
 ![InGame_Upgrading_Screen](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/InGame_Upgrading_Screen.gif)
 
-### Health bar & Exp bar working
+### Health bar & Exp bar funcionales
 ![Exp_Health_Bar](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/Exp_Health_Bar.gif)
+
+### Bobbing de pickups
+![Pickups_Bobbing](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/Pickups_Bobbing.gif)

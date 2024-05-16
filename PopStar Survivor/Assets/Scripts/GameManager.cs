@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 { 
@@ -31,25 +32,25 @@ public class GameManager : MonoBehaviour
 
     // Display de los stats.
     [Header("Current Stat Displayers")]
-    public Text currentHealthDisplay;
-    public Text currentRecoveryDisplay;
-    public Text currentMoveSpeedDisplay;
-    public Text currentMightDisplay;
-    public Text currentProjectileSpeedDisplay;
-    public Text currentMagnetDisplay;
+    public TMP_Text currentHealthDisplay;
+    public TMP_Text currentRecoveryDisplay;
+    public TMP_Text currentMoveSpeedDisplay;
+    public TMP_Text currentMightDisplay;
+    public TMP_Text currentProjectileSpeedDisplay;
+    public TMP_Text currentMagnetDisplay;
 
     [Header("Results Screen Displayers")]
     public Image chosenCharacterImage;
-    public Text chosenCharacterName;
-    public Text levelReachedDisplay;
-    public Text timeSurvivedDisplay;
+    public TMP_Text chosenCharacterName;
+    public TMP_Text levelReachedDisplay;
+    public TMP_Text timeSurvivedDisplay;
     public List<Image> chosenWeaponsUI = new List<Image>(6);
     public List<Image> chosenPassiveItemsUI = new List<Image>(6);
 
     [Header("Stopwatch")]
     public float timeLimit;
     float stopwatchTime;
-    public Text stopwatchDisplay;
+    public TMP_Text stopwatchDisplay;
 
     // Controla el estado de fin de partida.
     public bool isGameOver = false;
@@ -197,7 +198,7 @@ public class GameManager : MonoBehaviour
         if (chosenWeaponData.Count != chosenWeaponsUI.Count
             || chosenPassiveItemsData.Count != chosenPassiveItemsUI.Count)
         {
-            Debug.Log("La lista de datos de habilidades y tesoros escogidos tienen tamaños diferentes.");
+            Debug.Log("La lista de datos de habilidades y tesoros escogidos tienen tamaï¿½os diferentes.");
             return;
         }
 
@@ -238,7 +239,7 @@ public class GameManager : MonoBehaviour
 
         if (stopwatchTime >= timeLimit)
         {
-            GameOver();
+            playerObject.SendMessage("Kill");
         }
     }
 
