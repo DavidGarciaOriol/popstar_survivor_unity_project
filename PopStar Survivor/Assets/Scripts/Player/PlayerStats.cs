@@ -8,7 +8,7 @@ public class PlayerStats : MonoBehaviour
 {
     CharacterScriptableObject characterData;
 
-    // Estad�sticas actuales
+    // Estadísticas actuales
     
     float currentHealth;
     float currentRecovery;

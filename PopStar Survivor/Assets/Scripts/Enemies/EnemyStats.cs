@@ -27,7 +27,7 @@ public class EnemyStats : MonoBehaviour
 
     void Start()
     {
-        player  =FindObjectOfType<PlayerStats>().transform;
+        player = FindObjectOfType<PlayerStats>().transform;
 
     }
     void Update()

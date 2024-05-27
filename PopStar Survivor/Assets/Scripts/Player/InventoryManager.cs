@@ -52,7 +52,7 @@ public class InventoryManager : MonoBehaviour
         player = GetComponent<PlayerStats>();
     }
 
-    // A�ade un arma a un slot
+    // Añade un arma a un slot
     public void AddWeapon(int slotIndex, WeaponController weapon)
     {
         weaponSlots[slotIndex] = weapon;
@@ -66,7 +66,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    // A�ade un objeto pasivo a un slot
+    // Añade un objeto pasivo a un slot
     public void AddPassiveItem(int slotIndex, PassiveItem passiveItem)
     {
         passiveItemSlots[slotIndex] = passiveItem;
@@ -144,24 +144,24 @@ public class InventoryManager : MonoBehaviour
 
         foreach (var upgradeOption in upgradeUIOptions)
         {
-            if (availableWeaponUpgrades.Count == 0 && availablePassiveItemUpgrades.Count == 0) // Si no quedan ni habilidades ni tesoros disponibles, no generar� nada.
+            if (availableWeaponUpgrades.Count == 0 && availablePassiveItemUpgrades.Count == 0) // Si no quedan ni habilidades ni tesoros disponibles, no generará nada.
             {
                 return;
             }
 
             int upgradeType;
 
-            if (availableWeaponUpgrades.Count == 0) // Si ya no quedan habilidades disponibles, solo genera tesoros
+            if (availableWeaponUpgrades.Count == 0) // Si ya no quedan habilidades disponibles, solo genera tesoros.
             {
                 upgradeType = 2;
             }
-            else if (availablePassiveItemUpgrades.Count == 0) // Si ya no quedan tesoros disponibles, solo genera habilidades
+            else if (availablePassiveItemUpgrades.Count == 0) // Si ya no quedan tesoros disponibles, solo genera habilidades.
             {
                 upgradeType = 1;
             }
             else
             {
-                upgradeType = Random.Range(1, 3); // Elige entre habilidades o tesoros aleatoriamente
+                upgradeType = Random.Range(1, 3); // Elige entre habilidades o tesoros aleatoriamente.
             }
 
             if (upgradeType == 1)
@@ -189,9 +189,9 @@ public class InventoryManager : MonoBehaviour
                                     break;
                                 }
 
-                                upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpWeapon(i, chosenWeaponUpgrade.weaponUpgradeIndex)); // Le aplica la funcionalidad al bot�n.
+                                upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpWeapon(i, chosenWeaponUpgrade.weaponUpgradeIndex)); // Le aplica la funcionalidad al botón.
                                 
-                                // Descripci�n y nombre del siguiente nivel de la habilidad / arma.
+                                // Descripción y nombre del siguiente nivel de la habilidad / arma.
                                 upgradeOption.upgradeDescriptionDisplay.text
                                     = chosenWeaponUpgrade.weaponData.NextLevelPrefab.GetComponent<WeaponController>().weaponData.Description;
                                 upgradeOption.upgradeNameDisplay.text
@@ -207,9 +207,9 @@ public class InventoryManager : MonoBehaviour
 
                     if (newWeapon)
                     {
-                        upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnWeapon(chosenWeaponUpgrade.initialWeapon)); // Le aplica la funcionalidad al bot�n.
+                        upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnWeapon(chosenWeaponUpgrade.initialWeapon)); // Le aplica la funcionalidad al botón.
 
-                        // Descripci�n y nombre iniciales de la habilidad / arma.
+                        // Descripción y nombre iniciales de la habilidad / arma.
                         upgradeOption.upgradeDescriptionDisplay.text =
                             chosenWeaponUpgrade.weaponData.Description;
                         upgradeOption.upgradeNameDisplay.text =
@@ -246,9 +246,9 @@ public class InventoryManager : MonoBehaviour
                                         break;
                                     }
 
-                                    upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpPassiveItem(i, chosenPassiveItemUpgrade.passiveItemUpgradeIndex)); // Le aplica la funcionalidad al bot�n.
+                                    upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpPassiveItem(i, chosenPassiveItemUpgrade.passiveItemUpgradeIndex)); // Le aplica la funcionalidad al botón.
 
-                                    // Descripci�n y nombre del siguiente nivel de tesoro / pasivo.
+                                    // Descripción y nombre del siguiente nivel de tesoro / pasivo.
                                     upgradeOption.upgradeDescriptionDisplay.text
                                         = chosenPassiveItemUpgrade.passiveItemData.NextLevelPrefab.GetComponent<PassiveItem>().passiveItemData.Description;
                                     upgradeOption.upgradeNameDisplay.text
@@ -265,9 +265,9 @@ public class InventoryManager : MonoBehaviour
 
                     if (newPassiveItem)
                     {
-                        upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnPassiveItem(chosenPassiveItemUpgrade.initialPassiveItem)); // Le aplica la funcionalidad al bot�n.
+                        upgradeOption.upgradeButton.onClick.AddListener(() => player.SpawnPassiveItem(chosenPassiveItemUpgrade.initialPassiveItem)); // Le aplica la funcionalidad al botón.
 
-                        // Descripci�n y nombre iniciales del tesoro / pasivo.
+                        // Descripción y nombre iniciales del tesoro / pasivo.
                         upgradeOption.upgradeDescriptionDisplay.text =
                             chosenPassiveItemUpgrade.passiveItemData.Description;
                         upgradeOption.upgradeNameDisplay.text =
