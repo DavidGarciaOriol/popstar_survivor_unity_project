@@ -70,4 +70,4 @@ Este proyecto existe con motivos académicos para la elaboración de un proyecto
 
 ### Evoluciones
 #### Plasma
-[evolved_plasma](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/evolved_plasma.gif)
+![evolved_plasma](https://github.com/DavidGarciaOriol/popstar_survivor_unity_project/blob/main/DemoGifs/evolved_plasma.gif)
