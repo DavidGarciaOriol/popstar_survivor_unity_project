@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &17782502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2049296841128619493, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049296841128619493, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049296841128619493, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049296841128619493, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049296841128619493, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049296841128619493, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049296841128619493, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049296841128619493, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049296841128619493, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049296841128619493, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772990460850609190, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
+      propertyPath: m_Name
+      value: Treasure Chest
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99ae7d0afef6d0047ae9765c2d4b4a3f, type: 3}
 --- !u!1 &20438052
 GameObject:
   m_ObjectHideFlags: 0
@@ -9414,9 +9471,6 @@ MonoBehaviour:
   healthBar: {fileID: 1570551393}
   expBar: {fileID: 2135229809}
   levelText: {fileID: 2072883207}
-  secondWeaponTest: {fileID: 8267325386942157222, guid: bbd654126289b1f449b7438cda6706a5, type: 3}
-  firstPassiveItemTest: {fileID: 4574111829378408696, guid: e7a24391a71f475419b61c8bd79db5d3, type: 3}
-  secondPassiveItemTest: {fileID: 908332725593070549, guid: 1213177418108b14daa25b84aa43e23a, type: 3}
 --- !u!114 &2077432325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9479,6 +9533,9 @@ MonoBehaviour:
   - passiveItemUpgradeIndex: 3
     initialPassiveItem: {fileID: 4574111829378408696, guid: fb59bb55537700a4d8f29b83dc62aa18, type: 3}
     passiveItemData: {fileID: 11400000, guid: 6f2ed782243ea1b4499eacd665f43358, type: 2}
+  - passiveItemUpgradeIndex: 4
+    initialPassiveItem: {fileID: 4574111829378408696, guid: 0e6db7279bf143c4b875293b8e6fd433, type: 3}
+    passiveItemData: {fileID: 11400000, guid: 868299ea9cd993b4790cdb0b41e0bf5a, type: 2}
   upgradeUIOptions:
   - upgradeNameDisplay: {fileID: 373009840}
     upgradeDescriptionDisplay: {fileID: 1938254875}
@@ -9492,6 +9549,8 @@ MonoBehaviour:
     upgradeDescriptionDisplay: {fileID: 1616610409}
     upgradeIcon: {fileID: 420881443}
     upgradeButton: {fileID: 1039446233}
+  weaponEvolutions:
+  - {fileID: 11400000, guid: 031f0485367f00e408b6eb06db33a009, type: 2}
 --- !u!1 &2079110249
 GameObject:
   m_ObjectHideFlags: 0
@@ -10016,3 +10075,4 @@ SceneRoots:
   - {fileID: 1421567317}
   - {fileID: 1819494657}
   - {fileID: 631328406}
+  - {fileID: 17782502}

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Plasma Weapon Lv 3
   m_EditorClassIdentifier: 
   prefab: {fileID: 6576096777023912502, guid: 7fbf336ffb7438447b0a0fd346400a51, type: 3}
-  damage: 10
+  damage: 8
   speed: 0
-  cooldownDuration: 2.5
+  cooldownDuration: 3.8
   pierce: 0
   level: 3
   nextLevelPrefab: {fileID: 8267325386942157222, guid: 46f2be0d575cddb458538c27351f173f, type: 3}
