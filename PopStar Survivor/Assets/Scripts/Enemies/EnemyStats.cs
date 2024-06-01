@@ -18,6 +18,14 @@ public class EnemyStats : MonoBehaviour
     public float despawnDistance = 20f;
     Transform player;
 
+    [Header("Damage Feedback")]
+    public Color damageColor = new Color(1, 0, 0, 1);
+    public float damageFlashDuration = 0.2f;
+    public float deathFadeTime = 0.2f;
+    Color originalColor;
+    SpriteRenderer sr;
+    EnemyMovement movement;
+
     void Awake()
     {
         currentMoveSpeed = enemyData.MoveSpeed;
@@ -28,7 +36,10 @@ public class EnemyStats : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerStats>().transform;
+        sr = GetComponent<SpriteRenderer>();
+        originalColor = sr.color;
 
+        movement = GetComponent<EnemyMovement>();
     }
     void Update()
     {
@@ -38,9 +49,16 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float dmg)
+    public void TakeDamage(float dmg, Vector2 sourcePosition, float knockbackForce = 4f, float knockbackDuration = 0.1f)
     {
         currentHealth -= dmg;
+        StartCoroutine(DamageFlash());
+
+        if (knockbackForce > 0)
+        {
+            Vector2 dir = (Vector2)transform.position - sourcePosition;
+            movement.Knockback(dir.normalized * knockbackForce, knockbackDuration);
+        }
 
         if (currentHealth <= 0)
         {
@@ -48,9 +66,17 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
+    // Hace que el enemigo flashee cuando recibe daño.
+    IEnumerator DamageFlash()
+    {
+        sr.color = damageColor;
+        yield return new WaitForSeconds(damageFlashDuration);
+        sr.color = originalColor;
+    }
+
     public void Kill()
     {
-        Destroy(gameObject);
+        StartCoroutine(KillFade());
     }
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -60,6 +86,29 @@ public class EnemyStats : MonoBehaviour
             PlayerStats player = col.gameObject.GetComponent<PlayerStats>();
             player.TakeDamage(currenDamage);
         }
+    }
+
+    // El enemigo desaparece suavemente al morir.
+    IEnumerator KillFade()
+    {
+        WaitForEndOfFrame w = new WaitForEndOfFrame();
+        float t = 0, origAlpha = sr.color.a;
+
+        while (t < deathFadeTime)
+        {
+            yield return w;
+
+            currenDamage = 0;
+            currentMoveSpeed = 0;
+
+            t += Time.deltaTime;
+
+            // Cambia el color por cada frame
+            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, (1 - t / deathFadeTime) * origAlpha);
+
+        }
+        
+        Destroy(gameObject);
     }
 
     private void OnDestroy()

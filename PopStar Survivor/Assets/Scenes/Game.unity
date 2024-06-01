@@ -9413,6 +9413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2540af4087866984da6244c7c5a101d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageEffect: {fileID: 3827067676638065740, guid: 47d09e912c60ee649b28e285f80a1a70, type: 3}
   experience: 0
   level: 1
   experienceCap: 0

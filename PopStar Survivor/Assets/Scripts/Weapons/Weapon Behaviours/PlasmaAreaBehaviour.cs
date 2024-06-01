@@ -19,7 +19,7 @@ public class PlasmaAreaBehaviour : MeleeWeaponBehaviour
         if (col.CompareTag("Enemy") && !markedEnemies.Contains(col.gameObject))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(currentDamage);
+            enemy.TakeDamage(currentDamage, transform.position);
             markedEnemies.Add(col.gameObject); // Marca al enemigo apra que no reciba daño de este ataque de nuevo.
         }
         else if (col.CompareTag("Prop"))
