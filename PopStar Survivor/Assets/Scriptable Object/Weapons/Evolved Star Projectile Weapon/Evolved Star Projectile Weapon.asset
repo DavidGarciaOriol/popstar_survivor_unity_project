@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28687870614a0824a9900b26f234dd4b, type: 3}
+  m_Name: Evolved Star Projectile Weapon
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6576096777023912502, guid: 5060473d33cfb8e4a8b82d2089619602, type: 3}
+  damage: 25
+  speed: 3.65
+  cooldownDuration: 2.15
+  pierce: 20
+  level: 0
+  nextLevelPrefab: {fileID: 0}
+  name: Estrella Evolucionada
+  description: "\xA1Hu\xEDd mientras pod\xE1is!"
+  icon: {fileID: 294760069, guid: 01e51840c71eb9942b761edf7ef6d827, type: 3}
+  evolvedUpgradeToRemove: 0

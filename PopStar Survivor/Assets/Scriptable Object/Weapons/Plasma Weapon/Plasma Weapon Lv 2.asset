@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Plasma Weapon Lv 2
   m_EditorClassIdentifier: 
   prefab: {fileID: 6576096777023912502, guid: 70f496a5ddae1bb49afe892c946b618a, type: 3}
-  damage: 8
+  damage: 10
   speed: 0
-  cooldownDuration: 5
+  cooldownDuration: 4
   pierce: 0
   level: 2
   nextLevelPrefab: {fileID: 8267325386942157222, guid: a411fb767c046a041a5d3ce6fa019e66, type: 3}
   name: Plasma Nv 2
   description: "Aumenta el da\xF1o."
   icon: {fileID: -1038743271, guid: 67098cf6a98e7f343aff197b7ddf919c, type: 3}
+  evolvedUpgradeToRemove: 0

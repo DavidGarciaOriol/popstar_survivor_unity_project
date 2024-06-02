@@ -22,3 +22,4 @@ MonoBehaviour:
   name: Plasma Nv 5
   description: Disminuye el tiempo de espera.
   icon: {fileID: -1038743271, guid: 67098cf6a98e7f343aff197b7ddf919c, type: 3}
+  evolvedUpgradeToRemove: 0

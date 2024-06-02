@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dd44eb24278bb148a50b6e6068eef55, type: 3}
   m_Name: Bronto Enemy
   m_EditorClassIdentifier: 
-  moveSpeed: 3.5
-  maxHealth: 8
-  damage: 45
+  moveSpeed: 3.85
+  maxHealth: 12
+  damage: 35

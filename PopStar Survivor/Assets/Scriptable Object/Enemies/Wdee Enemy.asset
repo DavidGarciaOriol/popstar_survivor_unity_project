@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Wdee Enemy
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  maxHealth: 10
+  maxHealth: 25
   damage: 30

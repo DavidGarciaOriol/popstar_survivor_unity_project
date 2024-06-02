@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 1c4eaf9b02ed9654397b1b5bc5f2d0f5, type: 2}
-  destroyAfterSeconds: 1
+  destroyAfterSeconds: 1.2
 --- !u!60 &6266298112684126177
 PolygonCollider2D:
   m_ObjectHideFlags: 0

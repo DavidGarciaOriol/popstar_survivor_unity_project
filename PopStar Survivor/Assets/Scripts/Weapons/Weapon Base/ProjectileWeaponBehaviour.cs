@@ -36,6 +36,7 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
     // Start is called before the first frame update
     protected virtual void Start()
     {
+        currentDamage = GetCurrentDamage();
         Destroy(gameObject, destroyAfterSeconds);
     }
     
@@ -50,14 +51,14 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
         if (col.CompareTag("Enemy"))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(GetCurrentDamage(), transform.position);
+            enemy.TakeDamage(currentDamage, transform.position);
             ReducePierce();
         }
         else if (col.CompareTag("Prop"))
         {
             if (col.gameObject.TryGetComponent(out BreakableProps breakable))
             {
-                breakable.TakeDamage(GetCurrentDamage());
+                breakable.TakeDamage(currentDamage);
                 ReducePierce();
             }
             

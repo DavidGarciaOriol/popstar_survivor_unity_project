@@ -15,10 +15,11 @@ MonoBehaviour:
   prefab: {fileID: 6576096777023912502, guid: a1525c7e3363a09479b76107e97187da, type: 3}
   damage: 15
   speed: 0
-  cooldownDuration: 3.8
+  cooldownDuration: 3
   pierce: 0
   level: 4
   nextLevelPrefab: {fileID: 8267325386942157222, guid: 9cef29b05669abc4784fbef3b08e7f9d, type: 3}
   name: Plasma Nv 4
   description: "Aumenta el da\xF1o."
   icon: {fileID: -1038743271, guid: 67098cf6a98e7f343aff197b7ddf919c, type: 3}
+  evolvedUpgradeToRemove: 0

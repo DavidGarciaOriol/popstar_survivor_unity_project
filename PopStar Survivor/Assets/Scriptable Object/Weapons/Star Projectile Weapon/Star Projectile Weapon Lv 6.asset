@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Star Projectile Weapon Lv 6
   m_EditorClassIdentifier: 
   prefab: {fileID: 3671229281331981475, guid: 5d5e224b9aec9254cbd1badb83250470, type: 3}
-  damage: 20
-  speed: 7
-  cooldownDuration: 0.33
-  pierce: 1
+  damage: 8
+  speed: 6
+  cooldownDuration: 0.16
+  pierce: 5
   level: 6
   nextLevelPrefab: {fileID: 0}
   name: "Normal M\xC1XIMO"
   description: "\xA1Ametralladora de estrellas!"
   icon: {fileID: -2130945260, guid: 01e51840c71eb9942b761edf7ef6d827, type: 3}
+  evolvedUpgradeToRemove: 0

@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 81e2359de5cf9f042864f26cb0814fd3, type: 2}
-  destroyAfterSeconds: 2
+  destroyAfterSeconds: 1.1
 --- !u!58 &1707930281011129605
 CircleCollider2D:
   m_ObjectHideFlags: 0

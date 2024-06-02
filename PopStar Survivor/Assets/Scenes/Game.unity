@@ -4022,6 +4022,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1819494657}
     m_Modifications:
+    - target: {fileID: 8834734169634807593, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 8834734169634807593, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 63
+      objectReference: {fileID: 0}
     - target: {fileID: 8834734169634807594, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
       propertyPath: m_Color.a
       value: 0.19607843
@@ -4068,11 +4076,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8834734170784175513, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8834734170784175513, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8834734170784175513, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4128,7 +4136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8834734170784175514, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
       propertyPath: edgeSnap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8834734170784175514, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
       propertyPath: directions
@@ -4144,19 +4152,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8834734170784175514, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
       propertyPath: onlyOnMobile
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8834734170784175514, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
-      propertyPath: snapsToTouch
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8834734170784175514, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
+      propertyPath: snapsToTouch
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8834734170784175514, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
       propertyPath: boundaries.width
-      value: 1.19
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8834734170784175514, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
       propertyPath: boundaries.height
-      value: 1.26
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8834734170784175524, guid: 5c2cb823f1af59541974bd4a360355f6, type: 3}
       propertyPath: m_Color.a
@@ -4470,11 +4478,11 @@ MonoBehaviour:
   - waveName: Wave 2
     enemyGroups:
     - enemyName: Waddle Dees
-      enemyCount: 6
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 5678955800413761516, guid: 50d6a934bb26c87419dd8fe1d58bc4fd, type: 3}
     - enemyName: Bronto Burts
-      enemyCount: 4
+      enemyCount: 3
       spawnCount: 0
       enemyPrefab: {fileID: 1120512736315096501, guid: e72972f7a1a88034eb99451b9c6c7562, type: 3}
     waveQuota: 0
@@ -4483,11 +4491,11 @@ MonoBehaviour:
   - waveName: Wave 3
     enemyGroups:
     - enemyName: Waddle Dees
-      enemyCount: 16
+      enemyCount: 20
       spawnCount: 0
       enemyPrefab: {fileID: 5678955800413761516, guid: 50d6a934bb26c87419dd8fe1d58bc4fd, type: 3}
     - enemyName: Bronto Burts
-      enemyCount: 6
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 1120512736315096501, guid: e72972f7a1a88034eb99451b9c6c7562, type: 3}
     waveQuota: 0
@@ -4496,7 +4504,7 @@ MonoBehaviour:
   - waveName: Wave 4
     enemyGroups:
     - enemyName: Bronto Burts
-      enemyCount: 24
+      enemyCount: 36
       spawnCount: 0
       enemyPrefab: {fileID: 1120512736315096501, guid: e72972f7a1a88034eb99451b9c6c7562, type: 3}
     waveQuota: 0
@@ -4505,15 +4513,15 @@ MonoBehaviour:
   - waveName: Wave 5
     enemyGroups:
     - enemyName: Bronto Burts
-      enemyCount: 6
+      enemyCount: 16
       spawnCount: 0
       enemyPrefab: {fileID: 1120512736315096501, guid: e72972f7a1a88034eb99451b9c6c7562, type: 3}
     - enemyName: Waddle Dees
-      enemyCount: 18
+      enemyCount: 24
       spawnCount: 0
       enemyPrefab: {fileID: 5678955800413761516, guid: 50d6a934bb26c87419dd8fe1d58bc4fd, type: 3}
     - enemyName: Grizzos
-      enemyCount: 2
+      enemyCount: 3
       spawnCount: 0
       enemyPrefab: {fileID: 8011899348907872627, guid: 5c95fabd17a3ad747b10243391729ab1, type: 3}
     waveQuota: 0
@@ -4522,15 +4530,15 @@ MonoBehaviour:
   - waveName: Wave 6
     enemyGroups:
     - enemyName: Bronto Burts
-      enemyCount: 12
+      enemyCount: 20
       spawnCount: 0
       enemyPrefab: {fileID: 1120512736315096501, guid: e72972f7a1a88034eb99451b9c6c7562, type: 3}
     - enemyName: Waddle Dees
-      enemyCount: 16
+      enemyCount: 30
       spawnCount: 0
       enemyPrefab: {fileID: 5678955800413761516, guid: 50d6a934bb26c87419dd8fe1d58bc4fd, type: 3}
     - enemyName: Grizzos
-      enemyCount: 6
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 8011899348907872627, guid: 5c95fabd17a3ad747b10243391729ab1, type: 3}
     waveQuota: 0
@@ -4539,11 +4547,11 @@ MonoBehaviour:
   - waveName: Wave 7
     enemyGroups:
     - enemyName: Waddle Dees
-      enemyCount: 32
+      enemyCount: 40
       spawnCount: 0
       enemyPrefab: {fileID: 5678955800413761516, guid: 50d6a934bb26c87419dd8fe1d58bc4fd, type: 3}
     - enemyName: Grizzos
-      enemyCount: 12
+      enemyCount: 18
       spawnCount: 0
       enemyPrefab: {fileID: 8011899348907872627, guid: 5c95fabd17a3ad747b10243391729ab1, type: 3}
     waveQuota: 0
@@ -4552,11 +4560,11 @@ MonoBehaviour:
   - waveName: Wave 8
     enemyGroups:
     - enemyName: Waddle Dees
-      enemyCount: 60
+      enemyCount: 80
       spawnCount: 0
       enemyPrefab: {fileID: 5678955800413761516, guid: 50d6a934bb26c87419dd8fe1d58bc4fd, type: 3}
     - enemyName: Elite Waddle Dees
-      enemyCount: 6
+      enemyCount: 4
       spawnCount: 0
       enemyPrefab: {fileID: 5678955800413761516, guid: 218243b9050920a4aa359bd9cd79891f, type: 3}
     waveQuota: 0
@@ -4566,7 +4574,7 @@ MonoBehaviour:
   enemiesAlive: 0
   maxEnemiesAllowed: 12
   maxEnemiesReached: 0
-  waveInterval: 20
+  waveInterval: 30
   relativeSpawnPoints:
   - {fileID: 1550814246}
   - {fileID: 2117799430}
@@ -9596,31 +9604,31 @@ MonoBehaviour:
   levelRanges:
   - startLevel: 1
     endLevel: 5
-    experienceCapIncrease: 75
+    experienceCapIncrease: 70
   - startLevel: 6
     endLevel: 10
-    experienceCapIncrease: 105
+    experienceCapIncrease: 100
   - startLevel: 11
     endLevel: 15
-    experienceCapIncrease: 145
+    experienceCapIncrease: 130
   - startLevel: 16
     endLevel: 20
-    experienceCapIncrease: 175
+    experienceCapIncrease: 160
   - startLevel: 21
     endLevel: 23
-    experienceCapIncrease: 185
+    experienceCapIncrease: 190
   - startLevel: 24
     endLevel: 25
-    experienceCapIncrease: 195
+    experienceCapIncrease: 200
   - startLevel: 26
     endLevel: 30
-    experienceCapIncrease: 250
+    experienceCapIncrease: 230
   - startLevel: 31
     endLevel: 34
-    experienceCapIncrease: 315
+    experienceCapIncrease: 280
   - startLevel: 35
     endLevel: 39
-    experienceCapIncrease: 375
+    experienceCapIncrease: 330
   - startLevel: 40
     endLevel: 49
     experienceCapIncrease: 400
@@ -9727,6 +9735,7 @@ MonoBehaviour:
     upgradeButton: {fileID: 1039446233}
   weaponEvolutions:
   - {fileID: 11400000, guid: 031f0485367f00e408b6eb06db33a009, type: 2}
+  - {fileID: 11400000, guid: 7d677d96bcb82194cb0cebc1c23db6df, type: 2}
 --- !u!1 &2079110249
 GameObject:
   m_ObjectHideFlags: 0

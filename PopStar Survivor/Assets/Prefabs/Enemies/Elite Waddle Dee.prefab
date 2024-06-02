@@ -183,6 +183,10 @@ MonoBehaviour:
   currentMoveSpeed: 0
   currentHealth: 0
   currenDamage: 0
+  despawnDistance: 20
+  damageColor: {r: 1, g: 0, b: 0, a: 1}
+  damageFlashDuration: 0.2
+  deathFadeTime: 0.2
 --- !u!114 &5112282430207620881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,6 +200,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drops:
+  - name: Experience Blue Star
+    itemPrefab: {fileID: 8775733565830706956, guid: 5d524158bbfd8494cae90329571ba241, type: 3}
+    dropRate: 100
   - name: Experience Normal Star
     itemPrefab: {fileID: 8775733565830706956, guid: 247d9dc6e58b8ce4eabe3fdcccc2c6cd, type: 3}
-    dropRate: 100
+    dropRate: 50

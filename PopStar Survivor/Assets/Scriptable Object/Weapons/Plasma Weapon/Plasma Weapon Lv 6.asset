@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Plasma Weapon Lv 6
   m_EditorClassIdentifier: 
   prefab: {fileID: 6576096777023912502, guid: 238dccc9daa3a4c4498fc5d95d12f69d, type: 3}
-  damage: 25
+  damage: 20
   speed: 0
-  cooldownDuration: 2.1
+  cooldownDuration: 2
   pierce: 0
   level: 6
   nextLevelPrefab: {fileID: 0}
   name: "Plasma M\xC1XIMO"
   description: "\xA1M\xE1s da\xF1o, m\xE1s constante!"
   icon: {fileID: -1038743271, guid: 67098cf6a98e7f343aff197b7ddf919c, type: 3}
+  evolvedUpgradeToRemove: 0
