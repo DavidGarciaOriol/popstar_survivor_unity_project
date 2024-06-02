@@ -12,15 +12,17 @@ public class PlasmaAreaBehaviour : MeleeWeaponBehaviour
     {
         base.Start();
         markedEnemies = new List<GameObject>();
+        currentDamage = GetCurrentDamage();
     }
 
     protected override void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Enemy") && !markedEnemies.Contains(col.gameObject))
         {
+            
             EnemyStats enemy = col.GetComponent<EnemyStats>();
             enemy.TakeDamage(currentDamage, transform.position);
-            markedEnemies.Add(col.gameObject); // Marca al enemigo apra que no reciba daño de este ataque de nuevo.
+            markedEnemies.Add(col.gameObject); // Marca al enemigo para que no reciba daño de este ataque de nuevo.
         }
         else if (col.CompareTag("Prop"))
         {

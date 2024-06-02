@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class WeaponStarBehaviour : ProjectileWeaponBehaviour
 {
-
-
-
-
     // Start is called before the first frame update
     protected override void Start()
     {

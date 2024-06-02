@@ -54,6 +54,13 @@ public class EnemyStats : MonoBehaviour
         currentHealth -= dmg;
         StartCoroutine(DamageFlash());
 
+        // Texto de daño
+        if (dmg > 0)
+        {
+            GameManager.GenerateFloatingText(Mathf.FloorToInt(dmg).ToString(), transform);
+        }
+
+        // Knockback
         if (knockbackForce > 0)
         {
             Vector2 dir = (Vector2)transform.position - sourcePosition;

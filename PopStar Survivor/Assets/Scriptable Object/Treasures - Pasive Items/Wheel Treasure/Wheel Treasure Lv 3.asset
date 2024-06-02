@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d91ef399a50d8ce4495dd14fb2004c48, type: 3}
   m_Name: Wheel Treasure Lv 3
   m_EditorClassIdentifier: 
-  multiplier: 10
+  multiplier: 8
   level: 3
   nextLevelPrefab: {fileID: 908332725593070549, guid: aefe857c8376b2240860b58581397d04, type: 3}
   name: Rueda Nv 3
-  description: Velocidad de desplazamiento + 10
+  description: Velocidad de desplazamiento + 8%
   icon: {fileID: 21300000, guid: 5783ce946c9a83d4bae66ca68930a0fa, type: 3}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d91ef399a50d8ce4495dd14fb2004c48, type: 3}
   m_Name: Spring Heart Lv 6
   m_EditorClassIdentifier: 
-  multiplier: 210
+  multiplier: 120
   level: 6
   nextLevelPrefab: {fileID: 0}
   name: "Coraz\xF3n Primaveral M\xC1XIMO"
-  description: "Regeneraci\xF3n +210%"
+  description: "Regeneraci\xF3n +120%"
   icon: {fileID: 21300000, guid: 9b023647f96adc64e9fc8b5b886ec53d, type: 3}
