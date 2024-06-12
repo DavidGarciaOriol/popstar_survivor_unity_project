@@ -4,7 +4,7 @@
 Este proyecto existe con motivos académicos para la elaboración de un proyecto integrado, y no pretende generar ningñun lucro por parte del autor del mismo, así como no se usarán los sprites y assets incluídos para dicho fin. El arte del juego no es de mi autoría, y pertenece a sus respectivos propietarios.
 
 ## EARLY DEV BUILD - ITCH.IO
-[PopStar Survivor Early-Dev Build](https://elissya.itch.io/popstar-survivor/download/PwVAknNQ6MEkRTByXhXyyN6jTAmEzHadRjnCF41B)
+[PopStar Survivor Early-Dev Build](https://elissya.itch.io/popstar-survivor/download/BRE5BJ_IUIRaXAi3qsg7nnguL_NTNaijLd_89MKy)
 ## GOOGLE DOC - TFG
 [PROYECTO FIN DE CURSO - GOOGLE DOCS](https://docs.google.com/document/d/1TaoZ3uoMbQJ8dNGc2EWS2VDe4koRhoMNsYALo5c4q0Q/edit?usp=sharing)
 
