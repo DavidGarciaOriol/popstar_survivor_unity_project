@@ -1,7 +1,7 @@
 # POPSTAR SURVIVOR UNITY PROJECT
 
 ## DISCLAIMER
-Este proyecto existe con motivos académicos para la elaboración de un proyecto integrado, y no pretende generar ningñun lucro por parte del autor del mismo, así como no se usarán los sprites y assets incluídos para dicho fin. El arte del juego no es de mi autoría, y pertenece a sus respectivos propietarios.
+Este proyecto existe con motivos académicos para la elaboración de un proyecto integrado, y no pretende generar ningún lucro por parte del autor del mismo, así como no se usarán los sprites y assets incluídos para dicho fin. El arte del juego no es de mi autoría, y pertenece a sus respectivos propietarios.
 
 ## EARLY DEV BUILD - ITCH.IO
 [PopStar Survivor Early-Dev Build](https://elissya.itch.io/popstar-survivor/download/BRE5BJ_IUIRaXAi3qsg7nnguL_NTNaijLd_89MKy)
