@@ -6,7 +6,16 @@ Este proyecto existe con motivos académicos para la elaboración de un proyecto
 ## EARLY DEV BUILD - ITCH.IO
 [PopStar Survivor Early-Dev Build](https://elissya.itch.io/popstar-survivor/download/BRE5BJ_IUIRaXAi3qsg7nnguL_NTNaijLd_89MKy)
 ## GOOGLE DOC - TFG
-[PROYECTO FIN DE CURSO - GOOGLE DOCS](https://docs.google.com/document/d/1TaoZ3uoMbQJ8dNGc2EWS2VDe4koRhoMNsYALo5c4q0Q/edit?usp=sharing)
+[DOCUMENTO - TRABAJO FIN DE CURSO](https://docs.google.com/document/d/1TaoZ3uoMbQJ8dNGc2EWS2VDe4koRhoMNsYALo5c4q0Q/edit?usp=sharing)
+
+## GOOGLE DOC - PLAYER MANUAL
+[MANUAL DE USUARIO](https://docs.google.com/document/d/1AZO2ZNBebO1Zdbs13iX1eT_5YNuwRNiaT4mVSr9sBVI/edit?usp=sharing)
+
+## GOOGLE SLIDESHARE - PROJECT DEFENSE SLIDESHARE
+[PRESENTACIÓN DEL PROYECTO](https://docs.google.com/presentation/d/1b3Mef0vZEgXW0t20AKo22c1JExoV11La5aMTQkrc1nM/edit?usp=sharing)
+
+## DRIVE - PROJECT ROOT
+[RAÍZ DEL PROYECTO EN DRIVE](https://drive.google.com/drive/folders/1-XxxadF7hR5THVNA-G8eL06KLPuTk4kN)
 
 ## DEMO GIFS
 
