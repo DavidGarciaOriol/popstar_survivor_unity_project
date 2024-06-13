@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f97147d55f12d489a139b0c6c16649, type: 3}
+  m_Name: Green Shell
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: c1201b57086a28643be5c0a781db2698, type: 3}
+  maxLevel: 5
+  evolutionData:
+  - name: Giga Star
+    condition: 1
+    consumes: 2
+    evolutionLevel: 1
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 3a7788ac75f95c744896918401215f59, type: 2}
+      level: 9
+    outcome:
+      itemType: {fileID: 11400000, guid: 8a94702c945275846a99bc5df4316149, type: 2}
+      level: 1
+  baseStats:
+    name: "Caparaz\xF3n Verde"
+    description: Mejora tu velocidad de proyectil.
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0.25
+      magnet: 0
+  growth:
+  - name: "Caparaz\xF3n Verde Nv 2"
+    description: Mejora tu velocidad de proyectil.
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0.3
+      magnet: 0
+  - name: "Caparaz\xF3n Verde Nv 3"
+    description: Mejora tu velocidad de proyectil.
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0.35
+      magnet: 0
+  - name: "Caparaz\xF3n Verde Nv 4"
+    description: Mejora tu velocidad de proyectil.
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0.44
+      magnet: 0
+  - name: "Caparaz\xF3n Verde M\xC1XIMO"
+    description: Mejora tu velocidad de proyectil.
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0.55
+      magnet: 0

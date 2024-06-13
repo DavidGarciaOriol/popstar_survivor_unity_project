@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 2010681361
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2096233111, guid: b0775b48a050afd4ea3bdd821d1667cd, type: 3}
+  m_Sprite: {fileID: -1483761328, guid: 730bb683acfad3c42ae230666f0d1eae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,18 +119,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.00579533, y: -0.6403841}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 0.75, y: 2.6875}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 0.77977747, y: 1.4378526}
   m_EdgeRadius: 0
 --- !u!114 &-5538098367079272197
 MonoBehaviour:
@@ -160,10 +160,10 @@ MonoBehaviour:
   drops:
   - name: Tomato
     itemPrefab: {fileID: 8571601242004109827, guid: 665c22cf8242b36489ca192cf00dcc59, type: 3}
-    dropRate: 15
+    dropRate: 20
   - name: Maxi Tomato
     itemPrefab: {fileID: 8571601242004109827, guid: dd782731eb1b0cf46a004d77e8735c9b, type: 3}
-    dropRate: 2
+    dropRate: 15
   - name: Cherry
     itemPrefab: {fileID: 8571601242004109827, guid: bfba49894828ecf4e8ab2b202b42a6f6, type: 3}
-    dropRate: 25
+    dropRate: 30

@@ -19,6 +19,6 @@ public class HealingFood : Pickup
         }
 
         PlayerStats player = FindObjectOfType<PlayerStats>();
-        player.RestoreHealth(healthToRestore);
+        player.RestoreHealth(player.MaxHealth * healthToRestore / 100);
     }
 }

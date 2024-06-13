@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28687870614a0824a9900b26f234dd4b, type: 3}
+  m_Name: Evolved Plasma Weapon
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6576096777023912502, guid: cf84f699f20063f4b9af239867f5e16f, type: 3}
+  damage: 10
+  speed: 0
+  cooldownDuration: 0.26
+  pierce: 0
+  level: 0
+  nextLevelPrefab: {fileID: 0}
+  name: Plasma Evolucionado
+  description: "\xA1Ahora s\xED que se van a quedar en shock!"
+  icon: {fileID: 679720105, guid: 7d3487ec7b6b2254689d912272068faa, type: 3}
+  evolvedUpgradeToRemove: 1

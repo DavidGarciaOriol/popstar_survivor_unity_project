@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db89ec6ff54fffd43b6c584ffd31af3e, type: 3}
+  m_Name: Plasma Kirby
+  m_EditorClassIdentifier: 
+  icon: {fileID: 1789255711, guid: 38bb877c3e1c44643b4035b22621689a, type: 3}
+  name: Plasma
+  startingWeapon: {fileID: 11400000, guid: 5a2f4bb6657789741be7885d7929746e, type: 2}
+  stats:
+    maxHealth: 450
+    recovery: 1.35
+    moveSpeed: 3.25
+    might: 1.15
+    speed: 0.85
+    magnet: 12

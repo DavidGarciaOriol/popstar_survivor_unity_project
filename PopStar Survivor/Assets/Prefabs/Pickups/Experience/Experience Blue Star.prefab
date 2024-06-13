@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasBeenCollected: 0
-  experienceGranted: 120
+  experienceGranted: 140
 --- !u!50 &-179503421138500924
 Rigidbody2D:
   serializedVersion: 4

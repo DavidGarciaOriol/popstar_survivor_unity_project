@@ -69,6 +69,7 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+        
         if (instance == null)
         {
             instance = this;
@@ -87,11 +88,13 @@ public class GameManager : MonoBehaviour
         switch (currentState)
         {
             case GameState.Gameplay:
+
                 CheckForPauseAndresume();
                 UpdateStopwatch();
                 break;
 
             case GameState.Paused:
+
                 CheckForPauseAndresume();
                 break;
 
@@ -99,10 +102,12 @@ public class GameManager : MonoBehaviour
                 if (!isGameOver)
                 {
                     isGameOver = true;
+
                     Time.timeScale = 0f;
                     Debug.Log("GAME OVER");
                     DisplayResults();
                 }
+
                 break;
 
             case GameState.LevelUp:
@@ -122,7 +127,7 @@ public class GameManager : MonoBehaviour
     }
 
     // Genera el texto flotante encima del enemigo cuando le hacemos daño.
-    IEnumerator GenerateFloatingTextCoroutine(string text, Transform target, float duration = 1f, float speed = 50f)
+    IEnumerator GenerateFloatingTextCoroutine(string text, Transform target, float duration = 0.5f, float speed = 30f)
     {
         GameObject textObject = new GameObject("Damage Floating Text");
         RectTransform rect = textObject.AddComponent<RectTransform>();
@@ -143,19 +148,32 @@ public class GameManager : MonoBehaviour
         Destroy(textObject, duration);
 
         textObject.transform.SetParent(instance.damageTextCanvas.transform);
+        textObject.transform.SetSiblingIndex(0);
 
         WaitForEndOfFrame wait = new WaitForEndOfFrame();
 
         float time = 0;
         float yOffset = 0;
+        Vector3 lastKnownPosition = target.position;
         while (time < duration)
         {
-            yield return wait;
+            if (!rect)
+            {
+                break;
+            }
 
-            time += Time.deltaTime;
             tmPro.color = new Color(tmPro.color.r, tmPro.color.g, tmPro.color.b, 1 - time / duration);
+
+            if (target)
+            {
+                lastKnownPosition = target.position;
+            }
+
             yOffset += speed * Time.deltaTime;
-            rect.position = referenceCamera.WorldToScreenPoint(target.position + new Vector3(0, yOffset));
+            rect.position = referenceCamera.WorldToScreenPoint(lastKnownPosition + new Vector3(0, yOffset));
+            
+            yield return wait;
+            time += Time.deltaTime;
         }
     }
 
@@ -242,19 +260,19 @@ public class GameManager : MonoBehaviour
         resultsScreen.SetActive(true);
     }
 
-    public void AssignChosenCharacterUI(CharacterScriptableObject chosenCharacterData)
+    public void AssignChosenCharacterUI(CharacterData chosenCharacterData)
     {
         chosenCharacterImage.sprite = chosenCharacterData.Icon;
         chosenCharacterName.text = chosenCharacterData.Name;
 
     }
 
-    public void AssignLevelReached(int levelReachedData)
+    public void AssignLevelReachedUI(int levelReachedData)
     {
         levelReachedDisplay.text = levelReachedData.ToString();
     }
 
-    public void AssignChosenWeaponsAndPassiveItemsUI(List<Image> chosenWeaponData, List<Image> chosenPassiveItemsData)
+    public void AssignChosenWeaponsAndPassiveItemsUI(List<PlayerInventory.Slot> chosenWeaponData, List<PlayerInventory.Slot> chosenPassiveItemsData)
     {
         if (chosenWeaponData.Count != chosenWeaponsUI.Count
             || chosenPassiveItemsData.Count != chosenPassiveItemsUI.Count)
@@ -266,10 +284,10 @@ public class GameManager : MonoBehaviour
         // Asigna los datos de la habilidad (arma) escogida al UI de resultados.
         for (int i = 0; i < chosenWeaponsUI.Count; i++)
         { 
-            if (chosenWeaponData[i].sprite)
+            if (chosenWeaponData[i].image.sprite)
             {
                 chosenWeaponsUI[i].enabled = true;
-                chosenWeaponsUI[i].sprite = chosenWeaponData[i].sprite;
+                chosenWeaponsUI[i].sprite = chosenWeaponData[i].image.sprite;
             }
             else
             {
@@ -280,10 +298,10 @@ public class GameManager : MonoBehaviour
         // Asigna los datos del tesoro (passive item) escogido al UI de resultados.
         for (int i = 0; i < chosenPassiveItemsUI.Count; i++)
         {
-            if (chosenWeaponData[i].sprite)
+            if (chosenWeaponData[i].image.sprite)
             {
                 chosenPassiveItemsUI[i].enabled = true;
-                chosenPassiveItemsUI[i].sprite = chosenPassiveItemsData[i].sprite;
+                chosenPassiveItemsUI[i].sprite = chosenPassiveItemsData[i].image.sprite;
             }
             else
             {

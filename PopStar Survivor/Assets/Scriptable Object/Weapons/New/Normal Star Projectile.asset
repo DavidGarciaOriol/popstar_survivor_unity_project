@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 818dfff793088ac488cf9dfdf3eacaba, type: 3}
+  m_Name: Normal Star Projectile
+  m_EditorClassIdentifier: 
+  icon: {fileID: -2130945260, guid: 01e51840c71eb9942b761edf7ef6d827, type: 3}
+  maxLevel: 9
+  evolutionData:
+  - name: Giga Star
+    condition: 0
+    consumes: 2
+    evolutionLevel: 9
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 3da7623c87aad1b4da49f57c3fe89a9a, type: 2}
+      level: 1
+    outcome:
+      itemType: {fileID: 11400000, guid: 8a94702c945275846a99bc5df4316149, type: 2}
+      level: 1
+  behaviour: ProjectileWeapon
+  baseStats:
+    name: Proyectil Estrella
+    description: Lanza proyectiles estrellados hacia tus adversarios.
+    projectilePrefab: {fileID: 8819369700913497513, guid: b1a8b73845ad8a544bc3da1403dda070, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0.33
+    lifespan: 1.5
+    damage: 10
+    damageVariance: 1
+    area: 1
+    speed: 6
+    cooldown: 1.75
+    projectileInterval: 1
+    knockback: 1
+    number: 1
+    piercing: 2
+    maxInstances: 70
+  linearGrowth:
+  - name: Proyectil Estrella Nv 2
+    description: "Aumenta el da\xF1o."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0.33
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Proyectil Estrella Nv 3
+    description: "Aumenta la cadencia y perforaci\xF3n."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0.33
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: -0.35
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 2
+    maxInstances: 0
+  - name: Proyectil Estrella Nv 4
+    description: "Aumenta la cadencia y el \xE1rea."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0.33
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0.55
+    speed: 0
+    cooldown: -0.2
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Proyectil Estrella Nv 5
+    description: "Aumenta el da\xF1o y la perforaci\xF3n."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0.33
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 1
+    maxInstances: 0
+  - name: Proyectil Estrella Nv 6
+    description: "Aumenta la perforaci\xF3n y el knockback."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0.33
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0.33
+    number: 0
+    piercing: 2
+    maxInstances: 0
+  - name: Proyectil Estrella Nv 7
+    description: Aumenta la cadencia y el knockback.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0.33
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: -0.4
+    projectileInterval: 0
+    knockback: 0.5
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: "Proyectil Estrella M\xC1XIMO"
+    description: "Aumenta el n\xFAmero de proyectiles en 1, el knockback y el da\xF1o."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0.33
+    lifespan: 1
+    damage: 7.5
+    damageVariance: 1
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: -0.78
+    knockback: 0.5
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  - name: "Evoluci\xF3n - Giga Estrella"
+    description: "Evoluciona la Estrella Normal. Proyectiles m\xE1s grandes, y m\xE1s
+      da\xF1inos."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  randomGrowth: []

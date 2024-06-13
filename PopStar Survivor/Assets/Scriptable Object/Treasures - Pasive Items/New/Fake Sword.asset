@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f97147d55f12d489a139b0c6c16649, type: 3}
+  m_Name: Fake Sword
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 8baf7d72631a2f04faea9097b350d82e, type: 3}
+  maxLevel: 5
+  evolutionData: []
+  baseStats:
+    name: Espada Falsa
+    description: Mejora tu poder.
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0.2
+      speed: 0
+      magnet: 0
+  growth:
+  - name: Espada Falsa Nv 2
+    description: Mejora tu poder.
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0.2
+      speed: 0
+      magnet: 0
+  - name: Espada Falsa Nv 3
+    description: Mejora tu poder.
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0.2
+      speed: 0
+      magnet: 0
+  - name: Espada Falsa Nv 4
+    description: Mejora tu poder.
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0.2
+      speed: 0
+      magnet: 0
+  - name: "Espada Falsa M\xC1XIMO"
+    description: Mejora tu poder.
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0.25
+      speed: 0
+      magnet: 0

@@ -6,6 +6,7 @@ public class EnemyMovement : MonoBehaviour
 {
     EnemyStats enemy;
     Transform player;
+    SpriteRenderer spriteRenderer; 
 
     Vector2 knockbackVelocity;
     float knockbackDuration;
@@ -15,6 +16,7 @@ public class EnemyMovement : MonoBehaviour
     {
         enemy = GetComponent<EnemyStats>();
         player = FindObjectOfType<PlayerMovement>().transform;
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -30,8 +32,21 @@ public class EnemyMovement : MonoBehaviour
         else
         {
             // De no estar en knockback, el enemigo se mueve de forma constante hacia el jugador.
+            Vector2 direction = player.position - transform.position;
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position,
                 enemy.currentMoveSpeed * Time.deltaTime);
+
+            // Ajusta la dirección del sprite
+            if (direction.x > 0)
+            {
+                // El enemigo se mueve hacia la derecha
+                spriteRenderer.flipX = false;
+            }
+            else if (direction.x < 0)
+            {
+                // El enemigo se mueve hacia la izquierda
+                spriteRenderer.flipX = true;
+            }
 
         }
     }

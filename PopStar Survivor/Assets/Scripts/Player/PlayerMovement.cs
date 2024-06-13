@@ -21,6 +21,9 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rigidbody2D;
     PlayerStats player;
 
+    // Sensibilidad de movimiento
+    public float sensitivity = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,8 +62,23 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+
             moveX = Input.GetAxisRaw("Horizontal");
             moveY = Input.GetAxisRaw("Vertical");
+
+            /*string[] joystickNames = Input.GetJoystickNames();
+            if (joystickNames.Length > 0 && !string.IsNullOrEmpty(joystickNames[0]))
+            {
+                // Si hay un mando conectado, usa GetAxisRaw
+                moveX = Input.GetAxisRaw("Horizontal");
+                moveY = Input.GetAxisRaw("Vertical");
+            }
+            else
+            {
+                // Si no hay un mando conectado, usa GetAxis
+                moveX = Input.GetAxis("Horizontal");
+                moveY = Input.GetAxis("Vertical");
+            }*/
         }
         
 

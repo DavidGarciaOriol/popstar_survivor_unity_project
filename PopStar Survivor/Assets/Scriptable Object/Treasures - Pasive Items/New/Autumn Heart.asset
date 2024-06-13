@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f97147d55f12d489a139b0c6c16649, type: 3}
+  m_Name: Autumn Heart
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 6ea93338c89699d43beeebf49ea045be, type: 3}
+  maxLevel: 5
+  evolutionData: []
+  baseStats:
+    name: "Coraz\xF3n Oto\xF1al"
+    description: "Aumenta la salud m\xE1xima"
+    boosts:
+      maxHealth: 20
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  growth:
+  - name: "Coraz\xF3n Oto\xF1al Nv 2"
+    description: "Aumenta la salud m\xE1xima"
+    boosts:
+      maxHealth: 40
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: "Coraz\xF3n Oto\xF1al Nv 3"
+    description: "Aumenta la salud m\xE1xima"
+    boosts:
+      maxHealth: 60
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: "Coraz\xF3n Oto\xF1al Nv 4"
+    description: "Aumenta la salud m\xE1xima"
+    boosts:
+      maxHealth: 80
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: "Coraz\xF3n Oto\xF1al M\xC1XIMO"
+    description: "Aumenta la salud m\xE1xima"
+    boosts:
+      maxHealth: 100
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
