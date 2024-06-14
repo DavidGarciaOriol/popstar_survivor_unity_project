@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db89ec6ff54fffd43b6c584ffd31af3e, type: 3}
   m_Name: Sword Kirby
   m_EditorClassIdentifier: 
-  icon: {fileID: 107216946, guid: a4994766b369a1948ade8eb0e2e55e3d, type: 3}
+  icon: {fileID: -1025874218, guid: 829a3bad457fe3645b31fc804ae9d1b3, type: 3}
   name: Espada
   startingWeapon: {fileID: 11400000, guid: feec26d44f38136478e11ad2e2f5fc41, type: 2}
   stats:

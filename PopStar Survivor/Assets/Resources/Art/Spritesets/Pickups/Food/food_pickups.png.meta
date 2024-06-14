@@ -1,0 +1,1121 @@
+fileFormatVersion: 2
+guid: e8f2ac2a947fb03499d9e4049d735083
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: food_pickups_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 641
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909949ac67b75ef4fbddfade7a259a31
+      internalID: 62674463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 641
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562156b226c9cde44b4db944725851bc
+      internalID: 1085869584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 641
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010cbde93bfc75b49bd0332ff9eec4a2
+      internalID: 1349090233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 641
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231fa423a57804d4382abf08976f7431
+      internalID: 983475214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 641
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564445adb6930cb428a8f951177b00ca
+      internalID: 362752689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 564
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9958a8b61da5b224d878125a95449415
+      internalID: -237156436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 564
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701be047b926ef94b8a7a5354a715e45
+      internalID: -1481689237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_7
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 564
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e5f43382d36724dbae3e0b4f07f184
+      internalID: 389763806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_8
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 564
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66892a28aab3b544e88d8a5b079742c4
+      internalID: -1978467454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 564
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586d94371d81f4b499c77e662441e982
+      internalID: 117784311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 487
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c256393736bedad479526c9fa4a9db5d
+      internalID: -1427689026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_11
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 487
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc6631e0975afe47a117c4d8ba52247
+      internalID: 2147380073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_12
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 487
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a22e693d71eed46908c2d561881fec
+      internalID: 1453343660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_13
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 487
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef5bf94a02601d43adc99429498d5f6
+      internalID: -1970955004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 487
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae1fcbf90bb7734bbaa70293f97975f
+      internalID: -734096560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 410
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c76fde14f4984c4a9e273f4c3c8eb76
+      internalID: -1629514791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 410
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59feaad7b6e549e46add74f3d403591f
+      internalID: 2105123273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 410
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fea16438e479d34694c46ca8b506fd6
+      internalID: -1976016369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_18
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 410
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9223e62209c0945be63a27f9351bc7
+      internalID: 363586525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_19
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 410
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74d28dcd7cab4546b536e6a27b0f181
+      internalID: 396496114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 333
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b596be8ed09e9fc4fae25ecd353211c7
+      internalID: 260389970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_21
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 333
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec52c32a47793c14c90332b2f4346758
+      internalID: -251431295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_22
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 333
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0efb3645a0a34246a2540ff7c2974e9
+      internalID: -709346434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 333
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30890c6962bdcf443af8b1b6a0e4d6b4
+      internalID: 1276045276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_24
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 333
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffa3ec584edfae42a3ae8c79ca70a32
+      internalID: 1922902458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_25
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 257
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5c5441e2f4ff844aac34e7e5b0da8e
+      internalID: 679120514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 257
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15420bafe2ec1e746839fce16a25ac3c
+      internalID: 539544571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_27
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 257
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f834e0219b4f114ab323803f00de893
+      internalID: -1855247552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_28
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 256
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804c41a5699b5f34593576f1d53f9b11
+      internalID: -1671907318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_29
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 257
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b8761681c90f644bcc468de4c1f97d
+      internalID: -431242541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_30
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 180
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b5cce8d6b28e84e89da3596822c02c
+      internalID: -1365899271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 180
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5ca8901ee2f0847b6d4b131dda7427
+      internalID: 959407155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_32
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 180
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2cb4e096b42ff449265f54d866b961
+      internalID: -2044880856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_33
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 180
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6926ffda5646ef34b876680c485e3de3
+      internalID: 1159093920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 180
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54f6017449d99c4d9ad328259b0c852
+      internalID: -1125608078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 103
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa655730c1bfdc942bb1ef497fd44d54
+      internalID: 1758020666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_36
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 103
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e864178c32d1a9e48bec58f999fcf2ec
+      internalID: -2117456116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_37
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 107
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540edf48628c539458ee48f9229474ce
+      internalID: 308411332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_38
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 103
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4819e0299f4da34889735cdd9bcfd6a
+      internalID: -166158666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_39
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 103
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cb8c2cc76ee5f47afaea4c7211a81a
+      internalID: 1120138293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 22
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f3f4dd6e9ca1d438fb5400ddc1601c
+      internalID: 115321766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_41
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 22
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185b46a024beb4f4fac772b3aa8cda11
+      internalID: 547042454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_42
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 13
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f80e0774573038429a2288fddb4be81
+      internalID: -1112857581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_pickups_43
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 95
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629cbc07453680c43b7b6634a54b5437
+      internalID: -1676472809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      food_pickups_0: 62674463
+      food_pickups_1: 1085869584
+      food_pickups_10: -1427689026
+      food_pickups_11: 2147380073
+      food_pickups_12: 1453343660
+      food_pickups_13: -1970955004
+      food_pickups_14: -734096560
+      food_pickups_15: -1629514791
+      food_pickups_16: 2105123273
+      food_pickups_17: -1976016369
+      food_pickups_18: 363586525
+      food_pickups_19: 396496114
+      food_pickups_2: 1349090233
+      food_pickups_20: 260389970
+      food_pickups_21: -251431295
+      food_pickups_22: -709346434
+      food_pickups_23: 1276045276
+      food_pickups_24: 1922902458
+      food_pickups_25: 679120514
+      food_pickups_26: 539544571
+      food_pickups_27: -1855247552
+      food_pickups_28: -1671907318
+      food_pickups_29: -431242541
+      food_pickups_3: 983475214
+      food_pickups_30: -1365899271
+      food_pickups_31: 959407155
+      food_pickups_32: -2044880856
+      food_pickups_33: 1159093920
+      food_pickups_34: -1125608078
+      food_pickups_35: 1758020666
+      food_pickups_36: -2117456116
+      food_pickups_37: 308411332
+      food_pickups_38: -166158666
+      food_pickups_39: 1120138293
+      food_pickups_4: 362752689
+      food_pickups_40: 115321766
+      food_pickups_41: 547042454
+      food_pickups_42: -1112857581
+      food_pickups_43: -1676472809
+      food_pickups_5: -237156436
+      food_pickups_6: -1481689237
+      food_pickups_7: 389763806
+      food_pickups_8: -1978467454
+      food_pickups_9: 117784311
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

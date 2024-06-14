@@ -252,6 +252,8 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         timeSurvivedDisplay.text = stopwatchDisplay.text;
+        GamesSaveManager.SaveGameData(this);
+        Debug.Log("Datos de la partida guardados correctamente.");
         ChangeState(GameState.GameOver);
     }
 
@@ -277,7 +279,7 @@ public class GameManager : MonoBehaviour
         if (chosenWeaponData.Count != chosenWeaponsUI.Count
             || chosenPassiveItemsData.Count != chosenPassiveItemsUI.Count)
         {
-            Debug.Log("La lista de datos de habilidades y tesoros escogidos tienen tama�os diferentes.");
+            Debug.Log("La lista de datos de habilidades y tesoros escogidos tienen tamaños diferentes.");
             return;
         }
 
