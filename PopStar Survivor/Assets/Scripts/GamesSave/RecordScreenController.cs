@@ -44,42 +44,14 @@ public class RecordScreenController : MonoBehaviour
 
         if (data != null)
         {
-
-            chosenCharacterImage.sprite = LoadSprite(data.chosenCharacterImagePath);
             chosenCharacterName.text = data.chosenCharacterName;
             levelReachedDisplay.text = data.levelReached.ToString();
             timeSurvivedDisplay.text = data.timeSurvived;
-
-            for (int i = 0; i < data.chosenWeaponsUIPaths.Count; i++)
-            {
-                if (!string.IsNullOrEmpty(data.chosenWeaponsUIPaths[i]))
-                {
-                    chosenWeaponsUI[i].sprite = LoadSprite(data.chosenWeaponsUIPaths[i]);
-                }
-            }
-
-            // Asigna los datos del tesoro (passive item) escogido al UI de resultados.
-            for (int i = 0; i < data.chosenPassiveItemsUIPaths.Count; i++)
-            {
-                if (!string.IsNullOrEmpty(data.chosenPassiveItemsUIPaths[i]))
-                {
-                    chosenPassiveItemsUI[i].sprite = LoadSprite(data.chosenPassiveItemsUIPaths[i]);
-                }
-            }
         }
         else
         {
             Debug.LogWarning("Error al cargar los datos de la partida anterior.");
         }
-    }
-
-    private Sprite LoadSprite(string path)
-    {
-        if (!string.IsNullOrEmpty(path))
-        {
-            return Resources.Load<Sprite>(path);
-        }
-        return null;
     }
 
     public void HideRecordScreen()
