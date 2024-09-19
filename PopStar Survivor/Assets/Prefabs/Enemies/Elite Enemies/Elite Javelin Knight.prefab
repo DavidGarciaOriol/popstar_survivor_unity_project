@@ -126,9 +126,9 @@ MonoBehaviour:
   - name: Experience Green Star
     itemPrefab: {fileID: 8775733565830706956, guid: 0b1c388706791664faa783770b15c881, type: 3}
     dropRate: 100
-  - name: Experience Green Star
-    itemPrefab: {fileID: 8775733565830706956, guid: 00dce744a149fd44a99b91a9928e8376, type: 3}
-    dropRate: 100
+  - name: Experience Green Star Lv2
+    itemPrefab: {fileID: 8775733565830706956, guid: e796cf2461f01fd44a4d5424276460e7, type: 3}
+    dropRate: 75
 --- !u!61 &2580584203622275058
 BoxCollider2D:
   m_ObjectHideFlags: 0

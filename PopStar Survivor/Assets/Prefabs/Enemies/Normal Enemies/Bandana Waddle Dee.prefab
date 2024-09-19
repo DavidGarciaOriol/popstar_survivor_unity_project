@@ -155,6 +155,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drops:
+  - name: Experience Red Star Lv2
+    itemPrefab: {fileID: 8775733565830706956, guid: 94b5661140727944fa219503d75e3a02, type: 3}
+    dropRate: 20
   - name: Experience Red Star
     itemPrefab: {fileID: 8775733565830706956, guid: 0b1c388706791664faa783770b15c881, type: 3}
     dropRate: 100

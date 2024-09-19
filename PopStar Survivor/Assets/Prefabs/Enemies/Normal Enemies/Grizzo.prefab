@@ -203,6 +203,6 @@ MonoBehaviour:
   - name: Experience Normal Star
     itemPrefab: {fileID: 8775733565830706956, guid: 247d9dc6e58b8ce4eabe3fdcccc2c6cd, type: 3}
     dropRate: 100
-  - name: Experience Normal Star
-    itemPrefab: {fileID: 8775733565830706956, guid: 247d9dc6e58b8ce4eabe3fdcccc2c6cd, type: 3}
-    dropRate: 50
+  - name: Experience Normal Star Lv2
+    itemPrefab: {fileID: 8775733565830706956, guid: fc436592814452647b62977d242d1c0f, type: 3}
+    dropRate: 40

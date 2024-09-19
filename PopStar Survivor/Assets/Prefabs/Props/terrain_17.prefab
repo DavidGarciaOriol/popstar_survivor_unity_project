@@ -160,10 +160,13 @@ MonoBehaviour:
   drops:
   - name: Tomato
     itemPrefab: {fileID: 8571601242004109827, guid: 665c22cf8242b36489ca192cf00dcc59, type: 3}
-    dropRate: 25
+    dropRate: 35
   - name: Maxi Tomato
     itemPrefab: {fileID: 8571601242004109827, guid: dd782731eb1b0cf46a004d77e8735c9b, type: 3}
     dropRate: 5
   - name: Cherry
     itemPrefab: {fileID: 8571601242004109827, guid: bfba49894828ecf4e8ab2b202b42a6f6, type: 3}
-    dropRate: 40
+    dropRate: 45
+  - name: Ice Cream
+    itemPrefab: {fileID: 8571601242004109827, guid: cd9867da7f03ca74ca3936ef61284803, type: 3}
+    dropRate: 20

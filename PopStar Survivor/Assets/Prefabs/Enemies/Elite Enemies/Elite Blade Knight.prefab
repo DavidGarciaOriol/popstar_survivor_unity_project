@@ -203,6 +203,9 @@ MonoBehaviour:
   - name: Experience Green Star
     itemPrefab: {fileID: 8775733565830706956, guid: 00dce744a149fd44a99b91a9928e8376, type: 3}
     dropRate: 100
-  - name: Experience Green Star
-    itemPrefab: {fileID: 8775733565830706956, guid: 00dce744a149fd44a99b91a9928e8376, type: 3}
+  - name: Experience Green Star Lv2
+    itemPrefab: {fileID: 8775733565830706956, guid: e796cf2461f01fd44a4d5424276460e7, type: 3}
+    dropRate: 10
+  - name: Experience Blue Star Lv2
+    itemPrefab: {fileID: 8775733565830706956, guid: 8c51882cc03cd474b8c7488615e53122, type: 3}
     dropRate: 100
