@@ -20,7 +20,7 @@ MonoBehaviour:
     description: "Mejora la regeneraci\xF3n de salud."
     boosts:
       maxHealth: 0
-      recovery: 2
+      recovery: 1.5
       moveSpeed: 0
       might: 0
       speed: 0
@@ -30,7 +30,7 @@ MonoBehaviour:
     description: "Mejora la regeneraci\xF3n de salud."
     boosts:
       maxHealth: 0
-      recovery: 2
+      recovery: 1.6
       moveSpeed: 0
       might: 0
       speed: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
     description: "Mejora la regeneraci\xF3n de salud."
     boosts:
       maxHealth: 0
-      recovery: 2
+      recovery: 1.7
       moveSpeed: 0
       might: 0
       speed: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
     description: "Mejora la regeneraci\xF3n de salud."
     boosts:
       maxHealth: 0
-      recovery: 2
+      recovery: 1.8
       moveSpeed: 0
       might: 0
       speed: 0
@@ -57,7 +57,7 @@ MonoBehaviour:
     description: "Mejora la regeneraci\xF3n de salud."
     boosts:
       maxHealth: 0
-      recovery: 4
+      recovery: 3
       moveSpeed: 0
       might: 0
       speed: 0

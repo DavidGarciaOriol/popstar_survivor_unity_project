@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1.75
   maxHealth: 380
-  damage: 65
+  damage: 60

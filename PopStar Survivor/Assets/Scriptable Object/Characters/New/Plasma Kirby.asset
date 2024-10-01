@@ -16,9 +16,9 @@ MonoBehaviour:
   name: Plasma
   startingWeapon: {fileID: 11400000, guid: 5a2f4bb6657789741be7885d7929746e, type: 2}
   stats:
-    maxHealth: 450
-    recovery: 1.35
-    moveSpeed: 3.25
-    might: 1.15
-    speed: 0.85
+    maxHealth: 650
+    recovery: 1.4
+    moveSpeed: 3.45
+    might: 1.2
+    speed: 0.65
     magnet: 12

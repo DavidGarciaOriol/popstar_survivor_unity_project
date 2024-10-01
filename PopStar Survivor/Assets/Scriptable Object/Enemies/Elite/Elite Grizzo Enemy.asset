@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dd44eb24278bb148a50b6e6068eef55, type: 3}
   m_Name: Elite Grizzo Enemy
   m_EditorClassIdentifier: 
-  moveSpeed: 1.95
-  maxHealth: 600
-  damage: 60
+  moveSpeed: 1.8
+  maxHealth: 650
+  damage: 70

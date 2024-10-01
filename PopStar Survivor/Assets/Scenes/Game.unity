@@ -9632,53 +9632,56 @@ MonoBehaviour:
   invincibilityDuration: 0.66
   levelRanges:
   - startLevel: 1
-    endLevel: 5
-    experienceCapIncrease: 70
-  - startLevel: 6
-    endLevel: 10
+    endLevel: 3
     experienceCapIncrease: 100
+  - startLevel: 4
+    endLevel: 10
+    experienceCapIncrease: 140
   - startLevel: 11
     endLevel: 15
-    experienceCapIncrease: 130
+    experienceCapIncrease: 190
   - startLevel: 16
     endLevel: 20
-    experienceCapIncrease: 160
+    experienceCapIncrease: 250
   - startLevel: 21
     endLevel: 23
-    experienceCapIncrease: 190
+    experienceCapIncrease: 360
   - startLevel: 24
     endLevel: 25
-    experienceCapIncrease: 200
+    experienceCapIncrease: 450
   - startLevel: 26
     endLevel: 30
-    experienceCapIncrease: 230
+    experienceCapIncrease: 500
   - startLevel: 31
     endLevel: 34
-    experienceCapIncrease: 280
+    experienceCapIncrease: 600
   - startLevel: 35
     endLevel: 39
-    experienceCapIncrease: 330
+    experienceCapIncrease: 900
   - startLevel: 40
     endLevel: 49
-    experienceCapIncrease: 400
+    experienceCapIncrease: 1500
   - startLevel: 50
     endLevel: 59
-    experienceCapIncrease: 500
+    experienceCapIncrease: 3000
   - startLevel: 60
     endLevel: 69
-    experienceCapIncrease: 600
+    experienceCapIncrease: 4000
   - startLevel: 70
     endLevel: 79
-    experienceCapIncrease: 700
+    experienceCapIncrease: 5000
   - startLevel: 80
     endLevel: 89
-    experienceCapIncrease: 800
+    experienceCapIncrease: 6000
   - startLevel: 90
     endLevel: 99
-    experienceCapIncrease: 900
+    experienceCapIncrease: 7000
   - startLevel: 100
     endLevel: 999999
-    experienceCapIncrease: 1
+    experienceCapIncrease: 500
+  - startLevel: 100
+    endLevel: 999999
+    experienceCapIncrease: 500
   weaponIndex: 0
   passiveItemIndex: 0
   healthBar: {fileID: 1570551393}

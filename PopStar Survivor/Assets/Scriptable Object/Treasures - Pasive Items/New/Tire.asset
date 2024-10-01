@@ -21,7 +21,7 @@ MonoBehaviour:
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 0.25
+      moveSpeed: 0.27
       might: 0
       speed: 0
       magnet: 0
@@ -31,7 +31,7 @@ MonoBehaviour:
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 0.25
+      moveSpeed: 0.27
       might: 0
       speed: 0
       magnet: 0
@@ -40,7 +40,7 @@ MonoBehaviour:
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 0.25
+      moveSpeed: 0.27
       might: 0
       speed: 0
       magnet: 0
@@ -49,7 +49,7 @@ MonoBehaviour:
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 0.4
+      moveSpeed: 0.35
       might: 0
       speed: 0
       magnet: 0

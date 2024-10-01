@@ -16,9 +16,9 @@ MonoBehaviour:
   name: Normal
   startingWeapon: {fileID: 11400000, guid: 3a7788ac75f95c744896918401215f59, type: 2}
   stats:
-    maxHealth: 250
+    maxHealth: 400
     recovery: 1
     moveSpeed: 4.75
-    might: 1.45
-    speed: 1.15
+    might: 1.55
+    speed: 1.2
     magnet: 6

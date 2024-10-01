@@ -16,9 +16,9 @@ MonoBehaviour:
   name: Espada
   startingWeapon: {fileID: 11400000, guid: feec26d44f38136478e11ad2e2f5fc41, type: 2}
   stats:
-    maxHealth: 500
+    maxHealth: 525
     recovery: 0.15
-    moveSpeed: 3.85
-    might: 1.7
-    speed: 0.2
+    moveSpeed: 4
+    might: 1.72
+    speed: 0.85
     magnet: 4
