@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Bandana Waddle Dee Enemy
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  maxHealth: 2000
-  damage: 50
+  maxHealth: 1500
+  damage: 40

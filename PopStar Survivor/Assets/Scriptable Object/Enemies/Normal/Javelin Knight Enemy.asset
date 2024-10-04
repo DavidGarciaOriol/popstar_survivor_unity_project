@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dd44eb24278bb148a50b6e6068eef55, type: 3}
   m_Name: Javelin Knight Enemy
   m_EditorClassIdentifier: 
-  moveSpeed: 3.65
+  moveSpeed: 3.6
   maxHealth: 400
-  damage: 35
+  damage: 32

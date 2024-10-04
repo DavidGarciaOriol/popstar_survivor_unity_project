@@ -38,10 +38,10 @@ MonoBehaviour:
       y: 0
       width: 0
       height: 0.33
-    lifespan: 1.5
-    damage: 10
+    lifespan: 1.65
+    damage: 11
     damageVariance: 1
-    area: 1
+    area: 1.1
     speed: 6
     cooldown: 1.75
     projectileInterval: 1
@@ -128,7 +128,7 @@ MonoBehaviour:
       width: 0
       height: 0.33
     lifespan: 0
-    damage: 5
+    damage: 7.5
     damageVariance: 0
     area: 0
     speed: 0

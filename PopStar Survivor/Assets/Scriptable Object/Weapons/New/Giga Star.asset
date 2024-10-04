@@ -28,16 +28,16 @@ MonoBehaviour:
       y: 0
       width: 0.1
       height: 0.66
-    lifespan: 3
-    damage: 32
-    damageVariance: 2
-    area: 3.5
-    speed: 2.35
-    cooldown: 2.25
-    projectileInterval: 0.15
-    knockback: 2.15
+    lifespan: 3.5
+    damage: 36
+    damageVariance: 3
+    area: 3.75
+    speed: 2.3
+    cooldown: 2.3
+    projectileInterval: 0.2
+    knockback: 2.25
     number: 3
-    piercing: 32
+    piercing: 50
     maxInstances: 100
   linearGrowth: []
   randomGrowth: []

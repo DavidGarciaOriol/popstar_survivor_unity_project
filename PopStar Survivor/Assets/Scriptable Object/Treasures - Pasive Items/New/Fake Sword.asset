@@ -22,7 +22,7 @@ MonoBehaviour:
       maxHealth: 0
       recovery: 0
       moveSpeed: 0
-      might: 0.21
+      might: 0.2
       speed: 0
       magnet: 0
   growth:
@@ -41,7 +41,7 @@ MonoBehaviour:
       maxHealth: 0
       recovery: 0
       moveSpeed: 0
-      might: 0.21
+      might: 0.22
       speed: 0
       magnet: 0
   - name: Espada Falsa Nv 4
@@ -50,7 +50,7 @@ MonoBehaviour:
       maxHealth: 0
       recovery: 0
       moveSpeed: 0
-      might: 0.21
+      might: 0.23
       speed: 0
       magnet: 0
   - name: "Espada Falsa M\xC1XIMO"
@@ -59,6 +59,6 @@ MonoBehaviour:
       maxHealth: 0
       recovery: 0
       moveSpeed: 0
-      might: 0.26
+      might: 0.25
       speed: 0
       magnet: 0
