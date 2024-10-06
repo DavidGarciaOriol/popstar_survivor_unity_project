@@ -5980,6 +5980,8 @@ MonoBehaviour:
   - {fileID: 5702077334954370067, guid: c34169122208cbe4c91933fecd22a139, type: 3}
   - {fileID: 5702077334954370067, guid: 100753c86b4f092458ef7c442e143c6e, type: 3}
   - {fileID: 5702077334954370067, guid: 5e7ba6f70b9300c48be36ae0a8c82e15, type: 3}
+  - {fileID: 5702077334954370067, guid: e9d2dda2dbf4eae4d90c77d6b9452c8e, type: 3}
+  - {fileID: 5702077334954370067, guid: fe4a5f4f48381be4c9fecd293844bb30, type: 3}
   player: {fileID: 2077432315}
   checkerRadius: 0.2
   terrainMask:
